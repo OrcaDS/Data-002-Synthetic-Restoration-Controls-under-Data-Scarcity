@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "record": "data002_replication_study_contract_v1",
+  "status": "design_frozen_pending_review",
+  "authorization": null,
+  "scope": "fixed_540_condition_replication_control_grid",
+  "source": {
+    "release_tag": "gaussian-v1.0",
+    "commit": "ecc2b222eca86c47acdf12efd3b8f779b6a29ef9",
+    "scarcity_source_path": "src/data/scarcity.py",
+    "scarcity_source_blob": "7554d7aa2be9ad6892362f5c926d2b7244a722a9",
+    "allocate_class_counts_minimum_per_class": 0
+  },
+  "grid": {
+    "diabetes": {
+      "retained_fractions": [0.01, 0.05, 0.1, 0.25, 0.5]
+    },
+    "cleveland": {
+      "retained_fractions": [0.05, 0.1, 0.25, 0.5]
+    },
+    "seeds": {
+      "first": 0,
+      "last": 29,
+      "inclusive": true
+    },
+    "models": ["logistic_regression", "random_forest"],
+    "condition_count": 540
+  },
+  "restoration": {
+    "target_total": "original training-pool row count",
+    "required_additional_rows": "target total minus retained row count",
+    "class_allocation": "Data 001 allocate_class_counts(retained_target, required_additional_rows, minimum_per_class=0)",
+    "order_namespace": "data002.replication-order.v1",
+    "order_payload_fields": [
+      "namespace",
+      "dataset",
+      "retained_fraction_token",
+      "split_seed",
+      "class_label",
+      "original_source_row_index"
+    ],
+    "order_payload_encoding": {
+      "format": "canonical_utf8_json",
+      "sort_keys": true,
+      "separators": [",", ":"],
+      "ensure_ascii": false,
+      "allow_nan": false
+    },
+    "ranking": "ascending_sha256_digest_then_ascending_original_source_row_index",
+    "class_labels": [0, 1],
+    "duplicate_class_block_order": "ascending_integer_class_label",
+    "allocation": "cycle through ranked retained rows independently within each class",
+    "balance_invariant": "each retained source row receives floor or ceiling of its class duplicate count",
+    "row_order": "all retained originals first in accepted reconstruction order; duplicate class block 0 follows, then duplicate class block 1; each class block preserves its SHA-256-ranked cycle order"
+  },
+  "accepted_reconstruction": {
+    "module": "src/data002/reconstruction.py",
+    "module_sha256": "0ca9c701c41d41c9adc418c91fc452a5052230b7e482e35cd02331b21caf1b60",
+    "compatibility_report_sha256": "9741f7e13b7faec0b27c4ad2404ecfb890c756c605a1f53f1259ca3d124eb19b",
+    "compatibility_implementation_manifest": "results/provenance/compatibility_implementation_manifest_v1.json",
+    "compatibility_implementation_manifest_sha256": "6273e56d2b5b34c0349946f40c0a1fd72e4d42bcb5cb03a9b71cfc44a46691fa",
+    "environment_inventory": "results/provenance/environment_inventory_python313_v1.json",
+    "environment_inventory_sha256": "d6e8c4444d5d1ffe63f5866b2da7405e67cdbd7c586499ec5804526b38c78589",
+    "requirements_lock": "requirements-lock.txt",
+    "requirements_lock_sha256": "a4b12e0682dbc8308ed3619922f560b966349416d3e95ccee171940fc4d0ee15",
+    "must_reuse_without_modification": [
+      "model",
+      "preprocessing",
+      "split",
+      "scarcity_subset",
+      "prediction",
+      "metric"
+    ]
+  },
+  "condition_manifest": "results/provenance/replication_full_grid_keys_v1.json",
+  "metric_blinding": {
+    "applies_to": ["replication_execution", "metric_blind_pilot"],
+    "predictive_metrics": {
+      "compute": false,
+      "store": false,
+      "print": false,
+      "summarize": false,
+      "join": false
+    },
+    "prediction_artifact": {
+      "format": "npz",
+      "allowed_arrays": ["test_index", "y_true", "probability"]
+    },
+    "operational_validation_may_return": [
+      "schema_booleans",
+      "range_booleans",
+      "finiteness_booleans",
+      "hashes",
+      "counts",
+      "warnings",
+      "runtime",
+      "memory",
+      "disk",
+      "terminal_status"
+    ],
+    "operational_validation_must_not_return": [
+      "probability_values",
+      "predictive_metric_values"
+    ],
+    "upstream_metric_tables_may_be_loaded_or_joined_by_pilot": false,
+    "replication_metrics_stage": "separately_authorized_analysis_after_exact_540_key_checkpoint_prediction_reconciliation"
+  },
+  "resources": {
+    "max_parallel_conditions": 1,
+    "condition_timeout_seconds": 900,
+    "minimum_free_disk_bytes": 2147483648
+  },
+  "execution": {
+    "atomic_condition_artifacts": true,
+    "verified_resume": true,
+    "exclusive_run_lock": true,
+    "all_expected_conditions_must_succeed": true,
+    "design_values_are_authorization": false
+  }
+}

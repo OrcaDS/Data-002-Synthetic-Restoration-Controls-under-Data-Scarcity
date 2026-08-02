@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "record": "data002_replication_analysis_contract_v1",
+  "status": "design_frozen_pending_review",
+  "authorization": null,
+  "scope": "prespecified_18_stratum_replication_treatment_analysis",
+  "study_contract": "config/replication_study_v1.json",
+  "upstream_evidence_manifest": "results/provenance/data001_metric_bundle_manifest_v1.json",
+  "primary_contrast": {
+    "name": "gaussian_minus_replication",
+    "metric": "roc_auc",
+    "pairing_unit": "seed",
+    "strata": ["dataset", "retained_fraction", "model"],
+    "stratum_count": 18,
+    "seeds_per_stratum": 30
+  },
+  "interval": {
+    "method": "paired_seed_level_bootstrap",
+    "resamples": 10000,
+    "confidence_level": 0.95,
+    "endpoints": [0.025, 0.975],
+    "quantile_method": "linear",
+    "resample_size": 30,
+    "sampling": "paired seed differences with replacement",
+    "bit_generator": "numpy.random.PCG64",
+    "analysis_seed": {
+      "namespace": "data002.paired-bootstrap-seed.v1",
+      "payload_fields": [
+        "namespace",
+        "dataset",
+        "retained_fraction_token",
+        "model",
+        "contrast",
+        "resamples"
+      ],
+      "payload_encoding": {
+        "format": "canonical_utf8_json",
+        "sort_keys": true,
+        "separators": [",", ":"],
+        "ensure_ascii": false,
+        "allow_nan": false
+      },
+      "derivation": "first 8 SHA-256 digest bytes interpreted as unsigned big-endian uint64"
+    }
+  },
+  "practical_threshold": {
+    "absolute_roc_auc_difference": 0.01,
+    "helpful": "entire 95% interval exceeds +0.01",
+    "harmful": "entire 95% interval is below -0.01",
+    "otherwise": "no clear practically meaningful difference"
+  },
+  "multiplicity": {
+    "p_values": false,
+    "adjustment": "none",
+    "all_primary_strata_prespecified": true,
+    "aggregate_counts": "descriptive",
+    "heterogeneity_views": "descriptive"
+  },
+  "analysis_gate": {
+    "expected_replication_keys": 540,
+    "all_replication_keys_must_be_successful": true,
+    "checkpoint_prediction_reconciliation": "exact",
+    "replication_metric_outputs_before_gate": "forbidden",
+    "silent_dropping": false,
+    "complete_case_analysis": false,
+    "blocked_on_any_missing_failed_timeout_unexpected_or_mismatched_item": true
+  },
+  "analysis_stage": {
+    "replication_metric_computation": "only after the pre-analysis gate passes under separate analysis authorization",
+    "metric_output_reconciliation": "exact",
+    "upstream_metric_table_join": "only during separately authorized analysis"
+  },
+  "execution_authorization_required": true
+}

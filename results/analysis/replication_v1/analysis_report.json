@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "record": "data002_replication_analysis_report_v1",
+  "status": "complete",
+  "scientific_scope": "prespecified_replication_treatment_analysis",
+  "accounting": {
+    "replication_keys": 540,
+    "gaussian_keys": 540,
+    "baseline_source_keys": 660,
+    "baseline_matched_keys": 540,
+    "strata": 18,
+    "paired_seeds_per_stratum": 30
+  },
+  "reconciliation": {
+    "missing_replication_keys": [],
+    "unexpected_replication_keys": [],
+    "missing_gaussian_keys": [],
+    "unexpected_gaussian_keys": [],
+    "missing_baseline_keys": [],
+    "unexpected_baseline_keys": [],
+    "incomplete_strata": []
+  },
+  "allocation_invariants_required": true,
+  "inferential_tests_performed": false,
+  "multiplicity_adjustment": "none",
+  "raw_prediction_arrays_persisted": false,
+  "policy": {
+    "primary_contrast": "gaussian_minus_replication",
+    "secondary_contrasts": [
+      "replication_minus_real_only",
+      "gaussian_minus_real_only"
+    ],
+    "bootstrap_method": "paired_seed_level_bootstrap",
+    "bootstrap_resamples": 10000,
+    "quantiles": [
+      0.025,
+      0.975
+    ],
+    "quantile_method": "linear",
+    "practical_threshold": 0.01,
+    "inferential_tests_performed": false,
+    "multiplicity_adjustment": "none",
+    "silent_key_dropping": false,
+    "complete_case_analysis": false
+  },
+  "provenance": {
+    "analysis_launch_path": "config/replication_analysis_launch_v1.json",
+    "analysis_launch_sha256": "d069d5bb36bad0a0bba908829b9ab7a866b42fc33cc82907b5602ba3bf7f981f",
+    "analysis_contract_path": "config/replication_analysis_v1.json",
+    "analysis_contract_sha256": "127e921232c03d98820d49d962be0170da0cf4a933d0b465d92c5d6be37a7158",
+    "study_contract_path": "config/replication_study_v1.json",
+    "study_contract_sha256": "b2a693afb379c473c8d7645913d44429866e1a3180a7c48aa6013fb5bd8a8721",
+    "full_key_manifest_path": "results/provenance/replication_full_grid_keys_v1.json",
+    "full_key_manifest_sha256": "428846efb67d036975a159b2370855da9c42de9e2a93b53fec0d916e8f0b605b",
+    "upstream_evidence_manifest_path": "results/provenance/data001_metric_bundle_manifest_v1.json",
+    "upstream_evidence_manifest_sha256": "f2fa5363cab80c5e97c6bb94463c73ef767e5a1d2f413190be5123361afa1c0c",
+    "execution_evidence_review_path": "results/provenance/replication_full_grid_execution_review_v1.json",
+    "execution_evidence_review_sha256": "baf02b52d2b82d0965dc9a80890f1f51d6344b32ec60368958b18e8bee639fa9",
+    "execution_evidence_manifest_path": "results/provenance/replication_full_grid_execution_evidence_manifest_v1.json",
+    "execution_evidence_manifest_sha256": "08dbe77600844485cce503813fcd7298dd6eb87cab3e4d4b8f0fe91043bb27b7",
+    "full_operational_report_path": "results/replication/full_v1/operational_report.json",
+    "full_operational_report_sha256": "176da41109ac85e2693dbbcd1b0a988331fe8f7ef03faaaa6cd8b1a65d80cfb0",
+    "execution_evidence_commit": "b288e4869bc2ffdb2fef01b669567c7cd679c2e3",
+    "execution_package_identity_sha256": "d5c0c7dac2ef918fe16343ccfb23f901d00c54c7ebee296ba72bb5c134692448",
+    "pilot_source_identity_sha256": "b4d277ba78e4a4d6dbefec0f3b33ac13c8df692bfbf615ce4da66f078337036a",
+    "environment_inventory_path": "results/provenance/environment_inventory_python313_v1.json",
+    "environment_inventory_sha256": "d6e8c4444d5d1ffe63f5866b2da7405e67cdbd7c586499ec5804526b38c78589",
+    "requirements_lock_path": "requirements-lock.txt",
+    "requirements_lock_sha256": "a4b12e0682dbc8308ed3619922f560b966349416d3e95ccee171940fc4d0ee15",
+    "analysis_implementation_manifest_path": "results/provenance/replication_analysis_implementation_manifest_v1.json",
+    "analysis_implementation_manifest_sha256": "31a890e74c5b7d34354aaf5c08c99ae189365d2573dedf5bb3d37071df04707c",
+    "reviewed_base_commit": "921666a5553dd094a796578720258eb3ae26969e"
+  },
+  "outputs": {
+    "replication_seed_metrics.json": {
+      "bytes": 144311,
+      "sha256": "88f7bae8a4efcd1353a3ad86a68c675b6d82fbb47296f9b08cb64faf2971b936"
+    },
+    "stratum_summaries.json": {
+      "bytes": 31135,
+      "sha256": "07077b38096b82506b06495321674fb1b9170702b3c4d419881b4fb2f15ea37d"
+    }
+  }
+}

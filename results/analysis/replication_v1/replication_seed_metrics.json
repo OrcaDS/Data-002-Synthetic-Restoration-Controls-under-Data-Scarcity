@@ -1,0 +1,4868 @@
+{
+  "schema_version": 1,
+  "record": "data002_replication_seed_metrics_v1",
+  "metric": "roc_auc",
+  "condition_count": 540,
+  "rows": [
+    {
+      "key": "diabetes__001pct__seed_00__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 0,
+      "model": "logistic_regression",
+      "roc_auc": 0.8110667121680747
+    },
+    {
+      "key": "diabetes__001pct__seed_00__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 0,
+      "model": "random_forest",
+      "roc_auc": 0.7811418337763065
+    },
+    {
+      "key": "diabetes__001pct__seed_01__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 1,
+      "model": "logistic_regression",
+      "roc_auc": 0.8080150718721966
+    },
+    {
+      "key": "diabetes__001pct__seed_01__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 1,
+      "model": "random_forest",
+      "roc_auc": 0.7779053689822424
+    },
+    {
+      "key": "diabetes__001pct__seed_02__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 2,
+      "model": "logistic_regression",
+      "roc_auc": 0.8155740106057294
+    },
+    {
+      "key": "diabetes__001pct__seed_02__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 2,
+      "model": "random_forest",
+      "roc_auc": 0.7869950787513144
+    },
+    {
+      "key": "diabetes__001pct__seed_03__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 3,
+      "model": "logistic_regression",
+      "roc_auc": 0.8178947839149026
+    },
+    {
+      "key": "diabetes__001pct__seed_03__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 3,
+      "model": "random_forest",
+      "roc_auc": 0.7921299096837914
+    },
+    {
+      "key": "diabetes__001pct__seed_04__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 4,
+      "model": "logistic_regression",
+      "roc_auc": 0.8159654862699924
+    },
+    {
+      "key": "diabetes__001pct__seed_04__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 4,
+      "model": "random_forest",
+      "roc_auc": 0.7874006060923089
+    },
+    {
+      "key": "diabetes__001pct__seed_05__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 5,
+      "model": "logistic_regression",
+      "roc_auc": 0.8172720605760704
+    },
+    {
+      "key": "diabetes__001pct__seed_05__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 5,
+      "model": "random_forest",
+      "roc_auc": 0.785874339692273
+    },
+    {
+      "key": "diabetes__001pct__seed_06__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 6,
+      "model": "logistic_regression",
+      "roc_auc": 0.8185509883094164
+    },
+    {
+      "key": "diabetes__001pct__seed_06__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 6,
+      "model": "random_forest",
+      "roc_auc": 0.7795008311838102
+    },
+    {
+      "key": "diabetes__001pct__seed_07__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 7,
+      "model": "logistic_regression",
+      "roc_auc": 0.8133579761462169
+    },
+    {
+      "key": "diabetes__001pct__seed_07__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 7,
+      "model": "random_forest",
+      "roc_auc": 0.78818351206672
+    },
+    {
+      "key": "diabetes__001pct__seed_08__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 8,
+      "model": "logistic_regression",
+      "roc_auc": 0.8167472843081633
+    },
+    {
+      "key": "diabetes__001pct__seed_08__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 8,
+      "model": "random_forest",
+      "roc_auc": 0.7883153014064574
+    },
+    {
+      "key": "diabetes__001pct__seed_09__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 9,
+      "model": "logistic_regression",
+      "roc_auc": 0.8160658160517498
+    },
+    {
+      "key": "diabetes__001pct__seed_09__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 9,
+      "model": "random_forest",
+      "roc_auc": 0.7784363020712741
+    },
+    {
+      "key": "diabetes__001pct__seed_10__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 10,
+      "model": "logistic_regression",
+      "roc_auc": 0.8128456495829043
+    },
+    {
+      "key": "diabetes__001pct__seed_10__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 10,
+      "model": "random_forest",
+      "roc_auc": 0.7907271231016909
+    },
+    {
+      "key": "diabetes__001pct__seed_11__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 11,
+      "model": "logistic_regression",
+      "roc_auc": 0.8104358995988569
+    },
+    {
+      "key": "diabetes__001pct__seed_11__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 11,
+      "model": "random_forest",
+      "roc_auc": 0.7828769364388933
+    },
+    {
+      "key": "diabetes__001pct__seed_12__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 12,
+      "model": "logistic_regression",
+      "roc_auc": 0.8174902122499048
+    },
+    {
+      "key": "diabetes__001pct__seed_12__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 12,
+      "model": "random_forest",
+      "roc_auc": 0.785657305673418
+    },
+    {
+      "key": "diabetes__001pct__seed_13__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 13,
+      "model": "logistic_regression",
+      "roc_auc": 0.8176121516477168
+    },
+    {
+      "key": "diabetes__001pct__seed_13__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 13,
+      "model": "random_forest",
+      "roc_auc": 0.7836404292322523
+    },
+    {
+      "key": "diabetes__001pct__seed_14__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 14,
+      "model": "logistic_regression",
+      "roc_auc": 0.8101664491812663
+    },
+    {
+      "key": "diabetes__001pct__seed_14__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 14,
+      "model": "random_forest",
+      "roc_auc": 0.7740602390052368
+    },
+    {
+      "key": "diabetes__001pct__seed_15__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 15,
+      "model": "logistic_regression",
+      "roc_auc": 0.8070377085095104
+    },
+    {
+      "key": "diabetes__001pct__seed_15__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 15,
+      "model": "random_forest",
+      "roc_auc": 0.7872395455306446
+    },
+    {
+      "key": "diabetes__001pct__seed_16__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 16,
+      "model": "logistic_regression",
+      "roc_auc": 0.821375652316494
+    },
+    {
+      "key": "diabetes__001pct__seed_16__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 16,
+      "model": "random_forest",
+      "roc_auc": 0.7885284916640578
+    },
+    {
+      "key": "diabetes__001pct__seed_17__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 17,
+      "model": "logistic_regression",
+      "roc_auc": 0.8102397673479029
+    },
+    {
+      "key": "diabetes__001pct__seed_17__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 17,
+      "model": "random_forest",
+      "roc_auc": 0.7903820333586449
+    },
+    {
+      "key": "diabetes__001pct__seed_18__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 18,
+      "model": "logistic_regression",
+      "roc_auc": 0.8214343454008011
+    },
+    {
+      "key": "diabetes__001pct__seed_18__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 18,
+      "model": "random_forest",
+      "roc_auc": 0.793189453083246
+    },
+    {
+      "key": "diabetes__001pct__seed_19__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 19,
+      "model": "logistic_regression",
+      "roc_auc": 0.8122387953249871
+    },
+    {
+      "key": "diabetes__001pct__seed_19__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 19,
+      "model": "random_forest",
+      "roc_auc": 0.7829217446848208
+    },
+    {
+      "key": "diabetes__001pct__seed_20__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 20,
+      "model": "logistic_regression",
+      "roc_auc": 0.8194097036872147
+    },
+    {
+      "key": "diabetes__001pct__seed_20__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 20,
+      "model": "random_forest",
+      "roc_auc": 0.7956681688586705
+    },
+    {
+      "key": "diabetes__001pct__seed_21__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 21,
+      "model": "logistic_regression",
+      "roc_auc": 0.8133289592312929
+    },
+    {
+      "key": "diabetes__001pct__seed_21__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 21,
+      "model": "random_forest",
+      "roc_auc": 0.7861890842927383
+    },
+    {
+      "key": "diabetes__001pct__seed_22__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 22,
+      "model": "logistic_regression",
+      "roc_auc": 0.8138540869935921
+    },
+    {
+      "key": "diabetes__001pct__seed_22__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 22,
+      "model": "random_forest",
+      "roc_auc": 0.7900160353685386
+    },
+    {
+      "key": "diabetes__001pct__seed_23__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 23,
+      "model": "logistic_regression",
+      "roc_auc": 0.8135314021834048
+    },
+    {
+      "key": "diabetes__001pct__seed_23__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 23,
+      "model": "random_forest",
+      "roc_auc": 0.7936215822325358
+    },
+    {
+      "key": "diabetes__001pct__seed_24__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 24,
+      "model": "logistic_regression",
+      "roc_auc": 0.8163113697100527
+    },
+    {
+      "key": "diabetes__001pct__seed_24__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 24,
+      "model": "random_forest",
+      "roc_auc": 0.7832236103363881
+    },
+    {
+      "key": "diabetes__001pct__seed_25__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 25,
+      "model": "logistic_regression",
+      "roc_auc": 0.8162063036628472
+    },
+    {
+      "key": "diabetes__001pct__seed_25__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 25,
+      "model": "random_forest",
+      "roc_auc": 0.7927747188568867
+    },
+    {
+      "key": "diabetes__001pct__seed_26__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 26,
+      "model": "logistic_regression",
+      "roc_auc": 0.8122834577898306
+    },
+    {
+      "key": "diabetes__001pct__seed_26__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 26,
+      "model": "random_forest",
+      "roc_auc": 0.7772319737583164
+    },
+    {
+      "key": "diabetes__001pct__seed_27__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 27,
+      "model": "logistic_regression",
+      "roc_auc": 0.8126546569250649
+    },
+    {
+      "key": "diabetes__001pct__seed_27__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 27,
+      "model": "random_forest",
+      "roc_auc": 0.7939694223787046
+    },
+    {
+      "key": "diabetes__001pct__seed_28__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 28,
+      "model": "logistic_regression",
+      "roc_auc": 0.813368163004426
+    },
+    {
+      "key": "diabetes__001pct__seed_28__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 28,
+      "model": "random_forest",
+      "roc_auc": 0.7717292432024783
+    },
+    {
+      "key": "diabetes__001pct__seed_29__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 29,
+      "model": "logistic_regression",
+      "roc_auc": 0.8181142298008071
+    },
+    {
+      "key": "diabetes__001pct__seed_29__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "seed": 29,
+      "model": "random_forest",
+      "roc_auc": 0.7845058230034989
+    },
+    {
+      "key": "diabetes__005pct__seed_00__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 0,
+      "model": "logistic_regression",
+      "roc_auc": 0.818839673731178
+    },
+    {
+      "key": "diabetes__005pct__seed_00__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 0,
+      "model": "random_forest",
+      "roc_auc": 0.7925515166783782
+    },
+    {
+      "key": "diabetes__005pct__seed_01__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 1,
+      "model": "logistic_regression",
+      "roc_auc": 0.8202427210994402
+    },
+    {
+      "key": "diabetes__005pct__seed_01__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 1,
+      "model": "random_forest",
+      "roc_auc": 0.7890233228774712
+    },
+    {
+      "key": "diabetes__005pct__seed_02__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 2,
+      "model": "logistic_regression",
+      "roc_auc": 0.8194531399711605
+    },
+    {
+      "key": "diabetes__005pct__seed_02__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 2,
+      "model": "random_forest",
+      "roc_auc": 0.7950861524579291
+    },
+    {
+      "key": "diabetes__005pct__seed_03__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 3,
+      "model": "logistic_regression",
+      "roc_auc": 0.822408396293295
+    },
+    {
+      "key": "diabetes__005pct__seed_03__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 3,
+      "model": "random_forest",
+      "roc_auc": 0.7942635308568002
+    },
+    {
+      "key": "diabetes__005pct__seed_04__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 4,
+      "model": "logistic_regression",
+      "roc_auc": 0.8224426775251502
+    },
+    {
+      "key": "diabetes__005pct__seed_04__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 4,
+      "model": "random_forest",
+      "roc_auc": 0.7933465241025714
+    },
+    {
+      "key": "diabetes__005pct__seed_05__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 5,
+      "model": "logistic_regression",
+      "roc_auc": 0.8223457590207642
+    },
+    {
+      "key": "diabetes__005pct__seed_05__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 5,
+      "model": "random_forest",
+      "roc_auc": 0.7930630430655172
+    },
+    {
+      "key": "diabetes__005pct__seed_06__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 6,
+      "model": "logistic_regression",
+      "roc_auc": 0.8231047358400914
+    },
+    {
+      "key": "diabetes__005pct__seed_06__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 6,
+      "model": "random_forest",
+      "roc_auc": 0.7912914675954421
+    },
+    {
+      "key": "diabetes__005pct__seed_07__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 7,
+      "model": "logistic_regression",
+      "roc_auc": 0.8207705490513777
+    },
+    {
+      "key": "diabetes__005pct__seed_07__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 7,
+      "model": "random_forest",
+      "roc_auc": 0.79148173296765
+    },
+    {
+      "key": "diabetes__005pct__seed_08__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 8,
+      "model": "logistic_regression",
+      "roc_auc": 0.821308149195329
+    },
+    {
+      "key": "diabetes__005pct__seed_08__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 8,
+      "model": "random_forest",
+      "roc_auc": 0.7931110034224442
+    },
+    {
+      "key": "diabetes__005pct__seed_09__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 9,
+      "model": "logistic_regression",
+      "roc_auc": 0.8196308519722251
+    },
+    {
+      "key": "diabetes__005pct__seed_09__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 9,
+      "model": "random_forest",
+      "roc_auc": 0.7902560606841689
+    },
+    {
+      "key": "diabetes__005pct__seed_10__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 10,
+      "model": "logistic_regression",
+      "roc_auc": 0.8194945677157235
+    },
+    {
+      "key": "diabetes__005pct__seed_10__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 10,
+      "model": "random_forest",
+      "roc_auc": 0.7925770721024465
+    },
+    {
+      "key": "diabetes__005pct__seed_11__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 11,
+      "model": "logistic_regression",
+      "roc_auc": 0.8166581861490522
+    },
+    {
+      "key": "diabetes__005pct__seed_11__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 11,
+      "model": "random_forest",
+      "roc_auc": 0.790357789964335
+    },
+    {
+      "key": "diabetes__005pct__seed_12__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 12,
+      "model": "logistic_regression",
+      "roc_auc": 0.8202199857294572
+    },
+    {
+      "key": "diabetes__005pct__seed_12__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 12,
+      "model": "random_forest",
+      "roc_auc": 0.7920716669010557
+    },
+    {
+      "key": "diabetes__005pct__seed_13__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 13,
+      "model": "logistic_regression",
+      "roc_auc": 0.8194283037337746
+    },
+    {
+      "key": "diabetes__005pct__seed_13__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 13,
+      "model": "random_forest",
+      "roc_auc": 0.789949703355417
+    },
+    {
+      "key": "diabetes__005pct__seed_14__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 14,
+      "model": "logistic_regression",
+      "roc_auc": 0.8181543293177134
+    },
+    {
+      "key": "diabetes__005pct__seed_14__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 14,
+      "model": "random_forest",
+      "roc_auc": 0.7870543743974361
+    },
+    {
+      "key": "diabetes__005pct__seed_15__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 15,
+      "model": "logistic_regression",
+      "roc_auc": 0.8187175350992176
+    },
+    {
+      "key": "diabetes__005pct__seed_15__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 15,
+      "model": "random_forest",
+      "roc_auc": 0.7911541401942932
+    },
+    {
+      "key": "diabetes__005pct__seed_16__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 16,
+      "model": "logistic_regression",
+      "roc_auc": 0.8242638331419774
+    },
+    {
+      "key": "diabetes__005pct__seed_16__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 16,
+      "model": "random_forest",
+      "roc_auc": 0.7936950170240397
+    },
+    {
+      "key": "diabetes__005pct__seed_17__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 17,
+      "model": "logistic_regression",
+      "roc_auc": 0.8201751029731977
+    },
+    {
+      "key": "diabetes__005pct__seed_17__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 17,
+      "model": "random_forest",
+      "roc_auc": 0.7950848209906931
+    },
+    {
+      "key": "diabetes__005pct__seed_18__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 18,
+      "model": "logistic_regression",
+      "roc_auc": 0.8225654932292574
+    },
+    {
+      "key": "diabetes__005pct__seed_18__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 18,
+      "model": "random_forest",
+      "roc_auc": 0.800234586385356
+    },
+    {
+      "key": "diabetes__005pct__seed_19__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 19,
+      "model": "logistic_regression",
+      "roc_auc": 0.8186623213234545
+    },
+    {
+      "key": "diabetes__005pct__seed_19__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 19,
+      "model": "random_forest",
+      "roc_auc": 0.7944510004717703
+    },
+    {
+      "key": "diabetes__005pct__seed_20__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 20,
+      "model": "logistic_regression",
+      "roc_auc": 0.8234742341960095
+    },
+    {
+      "key": "diabetes__005pct__seed_20__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 20,
+      "model": "random_forest",
+      "roc_auc": 0.7960213899466377
+    },
+    {
+      "key": "diabetes__005pct__seed_21__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 21,
+      "model": "logistic_regression",
+      "roc_auc": 0.8170330087541249
+    },
+    {
+      "key": "diabetes__005pct__seed_21__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 21,
+      "model": "random_forest",
+      "roc_auc": 0.7897514605183211
+    },
+    {
+      "key": "diabetes__005pct__seed_22__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 22,
+      "model": "logistic_regression",
+      "roc_auc": 0.8204513224924667
+    },
+    {
+      "key": "diabetes__005pct__seed_22__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 22,
+      "model": "random_forest",
+      "roc_auc": 0.793781504081953
+    },
+    {
+      "key": "diabetes__005pct__seed_23__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 23,
+      "model": "logistic_regression",
+      "roc_auc": 0.8209926740696526
+    },
+    {
+      "key": "diabetes__005pct__seed_23__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 23,
+      "model": "random_forest",
+      "roc_auc": 0.794835344201434
+    },
+    {
+      "key": "diabetes__005pct__seed_24__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 24,
+      "model": "logistic_regression",
+      "roc_auc": 0.8207848679934302
+    },
+    {
+      "key": "diabetes__005pct__seed_24__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 24,
+      "model": "random_forest",
+      "roc_auc": 0.7907505549812988
+    },
+    {
+      "key": "diabetes__005pct__seed_25__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 25,
+      "model": "logistic_regression",
+      "roc_auc": 0.8194423764677737
+    },
+    {
+      "key": "diabetes__005pct__seed_25__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 25,
+      "model": "random_forest",
+      "roc_auc": 0.7911137167194215
+    },
+    {
+      "key": "diabetes__005pct__seed_26__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 26,
+      "model": "logistic_regression",
+      "roc_auc": 0.8190252903065884
+    },
+    {
+      "key": "diabetes__005pct__seed_26__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 26,
+      "model": "random_forest",
+      "roc_auc": 0.7904476332267656
+    },
+    {
+      "key": "diabetes__005pct__seed_27__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 27,
+      "model": "logistic_regression",
+      "roc_auc": 0.8217028142257574
+    },
+    {
+      "key": "diabetes__005pct__seed_27__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 27,
+      "model": "random_forest",
+      "roc_auc": 0.7901115252182987
+    },
+    {
+      "key": "diabetes__005pct__seed_28__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 28,
+      "model": "logistic_regression",
+      "roc_auc": 0.8246570873354682
+    },
+    {
+      "key": "diabetes__005pct__seed_28__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 28,
+      "model": "random_forest",
+      "roc_auc": 0.791108883266584
+    },
+    {
+      "key": "diabetes__005pct__seed_29__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 29,
+      "model": "logistic_regression",
+      "roc_auc": 0.8228048528112699
+    },
+    {
+      "key": "diabetes__005pct__seed_29__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 29,
+      "model": "random_forest",
+      "roc_auc": 0.7956464798729145
+    },
+    {
+      "key": "diabetes__010pct__seed_00__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 0,
+      "model": "logistic_regression",
+      "roc_auc": 0.8191577615778421
+    },
+    {
+      "key": "diabetes__010pct__seed_00__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 0,
+      "model": "random_forest",
+      "roc_auc": 0.7938362983321513
+    },
+    {
+      "key": "diabetes__010pct__seed_01__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 1,
+      "model": "logistic_regression",
+      "roc_auc": 0.8215547038837439
+    },
+    {
+      "key": "diabetes__010pct__seed_01__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 1,
+      "model": "random_forest",
+      "roc_auc": 0.7888736429591171
+    },
+    {
+      "key": "diabetes__010pct__seed_02__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 2,
+      "model": "logistic_regression",
+      "roc_auc": 0.8198431027517271
+    },
+    {
+      "key": "diabetes__010pct__seed_02__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 2,
+      "model": "random_forest",
+      "roc_auc": 0.7966958979661735
+    },
+    {
+      "key": "diabetes__010pct__seed_03__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 3,
+      "model": "logistic_regression",
+      "roc_auc": 0.8228444080787951
+    },
+    {
+      "key": "diabetes__010pct__seed_03__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 3,
+      "model": "random_forest",
+      "roc_auc": 0.7941540913770673
+    },
+    {
+      "key": "diabetes__010pct__seed_04__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 4,
+      "model": "logistic_regression",
+      "roc_auc": 0.8231322690275358
+    },
+    {
+      "key": "diabetes__010pct__seed_04__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 4,
+      "model": "random_forest",
+      "roc_auc": 0.7945605452378417
+    },
+    {
+      "key": "diabetes__010pct__seed_05__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 5,
+      "model": "logistic_regression",
+      "roc_auc": 0.8231807671546846
+    },
+    {
+      "key": "diabetes__010pct__seed_05__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 5,
+      "model": "random_forest",
+      "roc_auc": 0.7963999769432637
+    },
+    {
+      "key": "diabetes__010pct__seed_06__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 6,
+      "model": "logistic_regression",
+      "roc_auc": 0.8243749183281721
+    },
+    {
+      "key": "diabetes__010pct__seed_06__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 6,
+      "model": "random_forest",
+      "roc_auc": 0.7964848960446264
+    },
+    {
+      "key": "diabetes__010pct__seed_07__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 7,
+      "model": "logistic_regression",
+      "roc_auc": 0.8212163281695222
+    },
+    {
+      "key": "diabetes__010pct__seed_07__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 7,
+      "model": "random_forest",
+      "roc_auc": 0.7902155027667419
+    },
+    {
+      "key": "diabetes__010pct__seed_08__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 8,
+      "model": "logistic_regression",
+      "roc_auc": 0.8223588388236007
+    },
+    {
+      "key": "diabetes__010pct__seed_08__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 8,
+      "model": "random_forest",
+      "roc_auc": 0.7934547438805661
+    },
+    {
+      "key": "diabetes__010pct__seed_09__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 9,
+      "model": "logistic_regression",
+      "roc_auc": 0.8199925769567734
+    },
+    {
+      "key": "diabetes__010pct__seed_09__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 9,
+      "model": "random_forest",
+      "roc_auc": 0.7931070219790546
+    },
+    {
+      "key": "diabetes__010pct__seed_10__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 10,
+      "model": "logistic_regression",
+      "roc_auc": 0.819414261775782
+    },
+    {
+      "key": "diabetes__010pct__seed_10__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 10,
+      "model": "random_forest",
+      "roc_auc": 0.7932280105602392
+    },
+    {
+      "key": "diabetes__010pct__seed_11__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 11,
+      "model": "logistic_regression",
+      "roc_auc": 0.8174475405067564
+    },
+    {
+      "key": "diabetes__010pct__seed_11__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 11,
+      "model": "random_forest",
+      "roc_auc": 0.7911862314703051
+    },
+    {
+      "key": "diabetes__010pct__seed_12__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 12,
+      "model": "logistic_regression",
+      "roc_auc": 0.8214321505855882
+    },
+    {
+      "key": "diabetes__010pct__seed_12__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 12,
+      "model": "random_forest",
+      "roc_auc": 0.7918703561820313
+    },
+    {
+      "key": "diabetes__010pct__seed_13__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 13,
+      "model": "logistic_regression",
+      "roc_auc": 0.8204578777818882
+    },
+    {
+      "key": "diabetes__010pct__seed_13__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 13,
+      "model": "random_forest",
+      "roc_auc": 0.7922192265145289
+    },
+    {
+      "key": "diabetes__010pct__seed_14__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 14,
+      "model": "logistic_regression",
+      "roc_auc": 0.8190928808964039
+    },
+    {
+      "key": "diabetes__010pct__seed_14__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 14,
+      "model": "random_forest",
+      "roc_auc": 0.788685026532951
+    },
+    {
+      "key": "diabetes__010pct__seed_15__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 15,
+      "model": "logistic_regression",
+      "roc_auc": 0.8201783927663322
+    },
+    {
+      "key": "diabetes__010pct__seed_15__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 15,
+      "model": "random_forest",
+      "roc_auc": 0.791595223541735
+    },
+    {
+      "key": "diabetes__010pct__seed_16__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 16,
+      "model": "logistic_regression",
+      "roc_auc": 0.8245382514549607
+    },
+    {
+      "key": "diabetes__010pct__seed_16__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 16,
+      "model": "random_forest",
+      "roc_auc": 0.7953427644213671
+    },
+    {
+      "key": "diabetes__010pct__seed_17__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 17,
+      "model": "logistic_regression",
+      "roc_auc": 0.8211859279540876
+    },
+    {
+      "key": "diabetes__010pct__seed_17__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 17,
+      "model": "random_forest",
+      "roc_auc": 0.7943949525042474
+    },
+    {
+      "key": "diabetes__010pct__seed_18__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 18,
+      "model": "logistic_regression",
+      "roc_auc": 0.8239236805183178
+    },
+    {
+      "key": "diabetes__010pct__seed_18__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 18,
+      "model": "random_forest",
+      "roc_auc": 0.7980388851475163
+    },
+    {
+      "key": "diabetes__010pct__seed_19__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 19,
+      "model": "logistic_regression",
+      "roc_auc": 0.8188677041940987
+    },
+    {
+      "key": "diabetes__010pct__seed_19__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 19,
+      "model": "random_forest",
+      "roc_auc": 0.7937598215753563
+    },
+    {
+      "key": "diabetes__010pct__seed_20__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 20,
+      "model": "logistic_regression",
+      "roc_auc": 0.8241033184494841
+    },
+    {
+      "key": "diabetes__010pct__seed_20__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 20,
+      "model": "random_forest",
+      "roc_auc": 0.7977751639265367
+    },
+    {
+      "key": "diabetes__010pct__seed_21__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 21,
+      "model": "logistic_regression",
+      "roc_auc": 0.818376928934407
+    },
+    {
+      "key": "diabetes__010pct__seed_21__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 21,
+      "model": "random_forest",
+      "roc_auc": 0.7899436809768479
+    },
+    {
+      "key": "diabetes__010pct__seed_22__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 22,
+      "model": "logistic_regression",
+      "roc_auc": 0.8207823961941574
+    },
+    {
+      "key": "diabetes__010pct__seed_22__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 22,
+      "model": "random_forest",
+      "roc_auc": 0.7962997119530995
+    },
+    {
+      "key": "diabetes__010pct__seed_23__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 23,
+      "model": "logistic_regression",
+      "roc_auc": 0.8218001052818031
+    },
+    {
+      "key": "diabetes__010pct__seed_23__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 23,
+      "model": "random_forest",
+      "roc_auc": 0.797780991930327
+    },
+    {
+      "key": "diabetes__010pct__seed_24__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 24,
+      "model": "logistic_regression",
+      "roc_auc": 0.8224879636090761
+    },
+    {
+      "key": "diabetes__010pct__seed_24__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 24,
+      "model": "random_forest",
+      "roc_auc": 0.7941831795627438
+    },
+    {
+      "key": "diabetes__010pct__seed_25__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 25,
+      "model": "logistic_regression",
+      "roc_auc": 0.8201001407198891
+    },
+    {
+      "key": "diabetes__010pct__seed_25__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 25,
+      "model": "random_forest",
+      "roc_auc": 0.7913805349785465
+    },
+    {
+      "key": "diabetes__010pct__seed_26__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 26,
+      "model": "logistic_regression",
+      "roc_auc": 0.8205089627133875
+    },
+    {
+      "key": "diabetes__010pct__seed_26__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 26,
+      "model": "random_forest",
+      "roc_auc": 0.796212494369975
+    },
+    {
+      "key": "diabetes__010pct__seed_27__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 27,
+      "model": "logistic_regression",
+      "roc_auc": 0.8223115717367189
+    },
+    {
+      "key": "diabetes__010pct__seed_27__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 27,
+      "model": "random_forest",
+      "roc_auc": 0.7925709703541757
+    },
+    {
+      "key": "diabetes__010pct__seed_28__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 28,
+      "model": "logistic_regression",
+      "roc_auc": 0.8241849315598142
+    },
+    {
+      "key": "diabetes__010pct__seed_28__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 28,
+      "model": "random_forest",
+      "roc_auc": 0.79254289291735
+    },
+    {
+      "key": "diabetes__010pct__seed_29__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 29,
+      "model": "logistic_regression",
+      "roc_auc": 0.8231812190760459
+    },
+    {
+      "key": "diabetes__010pct__seed_29__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 29,
+      "model": "random_forest",
+      "roc_auc": 0.7957193412588203
+    },
+    {
+      "key": "diabetes__025pct__seed_00__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 0,
+      "model": "logistic_regression",
+      "roc_auc": 0.8196059120682904
+    },
+    {
+      "key": "diabetes__025pct__seed_00__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 0,
+      "model": "random_forest",
+      "roc_auc": 0.7934658313419178
+    },
+    {
+      "key": "diabetes__025pct__seed_01__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 1,
+      "model": "logistic_regression",
+      "roc_auc": 0.8215665202505168
+    },
+    {
+      "key": "diabetes__025pct__seed_01__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 1,
+      "model": "random_forest",
+      "roc_auc": 0.791903210379051
+    },
+    {
+      "key": "diabetes__025pct__seed_02__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 2,
+      "model": "logistic_regression",
+      "roc_auc": 0.820645525573739
+    },
+    {
+      "key": "diabetes__025pct__seed_02__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 2,
+      "model": "random_forest",
+      "roc_auc": 0.7923900965233729
+    },
+    {
+      "key": "diabetes__025pct__seed_03__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 3,
+      "model": "logistic_regression",
+      "roc_auc": 0.823378422008074
+    },
+    {
+      "key": "diabetes__025pct__seed_03__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 3,
+      "model": "random_forest",
+      "roc_auc": 0.7946674432673394
+    },
+    {
+      "key": "diabetes__025pct__seed_04__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 4,
+      "model": "logistic_regression",
+      "roc_auc": 0.8232647597362676
+    },
+    {
+      "key": "diabetes__025pct__seed_04__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 4,
+      "model": "random_forest",
+      "roc_auc": 0.7934498942298301
+    },
+    {
+      "key": "diabetes__025pct__seed_05__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 5,
+      "model": "logistic_regression",
+      "roc_auc": 0.8238095630855704
+    },
+    {
+      "key": "diabetes__025pct__seed_05__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 5,
+      "model": "random_forest",
+      "roc_auc": 0.7952910153760395
+    },
+    {
+      "key": "diabetes__025pct__seed_06__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 6,
+      "model": "logistic_regression",
+      "roc_auc": 0.8246130209532804
+    },
+    {
+      "key": "diabetes__025pct__seed_06__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 6,
+      "model": "random_forest",
+      "roc_auc": 0.795916289883846
+    },
+    {
+      "key": "diabetes__025pct__seed_07__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 7,
+      "model": "logistic_regression",
+      "roc_auc": 0.82194929764342
+    },
+    {
+      "key": "diabetes__025pct__seed_07__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 7,
+      "model": "random_forest",
+      "roc_auc": 0.793738105053173
+    },
+    {
+      "key": "diabetes__025pct__seed_08__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 8,
+      "model": "logistic_regression",
+      "roc_auc": 0.8226648997308146
+    },
+    {
+      "key": "diabetes__025pct__seed_08__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 8,
+      "model": "random_forest",
+      "roc_auc": 0.7955655665117886
+    },
+    {
+      "key": "diabetes__025pct__seed_09__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 9,
+      "model": "logistic_regression",
+      "roc_auc": 0.8207507114853915
+    },
+    {
+      "key": "diabetes__025pct__seed_09__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 9,
+      "model": "random_forest",
+      "roc_auc": 0.793493552424982
+    },
+    {
+      "key": "diabetes__025pct__seed_10__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 10,
+      "model": "logistic_regression",
+      "roc_auc": 0.8206713660808165
+    },
+    {
+      "key": "diabetes__025pct__seed_10__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 10,
+      "model": "random_forest",
+      "roc_auc": 0.7928122461475511
+    },
+    {
+      "key": "diabetes__025pct__seed_11__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 11,
+      "model": "logistic_regression",
+      "roc_auc": 0.8175001334625825
+    },
+    {
+      "key": "diabetes__025pct__seed_11__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 11,
+      "model": "random_forest",
+      "roc_auc": 0.7897791540649584
+    },
+    {
+      "key": "diabetes__025pct__seed_12__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 12,
+      "model": "logistic_regression",
+      "roc_auc": 0.8219402608359866
+    },
+    {
+      "key": "diabetes__025pct__seed_12__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 12,
+      "model": "random_forest",
+      "roc_auc": 0.7930422967974393
+    },
+    {
+      "key": "diabetes__025pct__seed_13__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 13,
+      "model": "logistic_regression",
+      "roc_auc": 0.8208384052867245
+    },
+    {
+      "key": "diabetes__025pct__seed_13__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 13,
+      "model": "random_forest",
+      "roc_auc": 0.7937961291642824
+    },
+    {
+      "key": "diabetes__025pct__seed_14__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 14,
+      "model": "logistic_regression",
+      "roc_auc": 0.8195188305475114
+    },
+    {
+      "key": "diabetes__025pct__seed_14__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 14,
+      "model": "random_forest",
+      "roc_auc": 0.7897911032544969
+    },
+    {
+      "key": "diabetes__025pct__seed_15__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 15,
+      "model": "logistic_regression",
+      "roc_auc": 0.8205798754921337
+    },
+    {
+      "key": "diabetes__025pct__seed_15__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 15,
+      "model": "random_forest",
+      "roc_auc": 0.7923901402576982
+    },
+    {
+      "key": "diabetes__025pct__seed_16__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 16,
+      "model": "logistic_regression",
+      "roc_auc": 0.8250793600636731
+    },
+    {
+      "key": "diabetes__025pct__seed_16__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 16,
+      "model": "random_forest",
+      "roc_auc": 0.7980285751852806
+    },
+    {
+      "key": "diabetes__025pct__seed_17__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 17,
+      "model": "logistic_regression",
+      "roc_auc": 0.8221848895942995
+    },
+    {
+      "key": "diabetes__025pct__seed_17__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 17,
+      "model": "random_forest",
+      "roc_auc": 0.7940655018319612
+    },
+    {
+      "key": "diabetes__025pct__seed_18__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 18,
+      "model": "logistic_regression",
+      "roc_auc": 0.8239090554359882
+    },
+    {
+      "key": "diabetes__025pct__seed_18__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 18,
+      "model": "random_forest",
+      "roc_auc": 0.794092134416263
+    },
+    {
+      "key": "diabetes__025pct__seed_19__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 19,
+      "model": "logistic_regression",
+      "roc_auc": 0.8191664873856292
+    },
+    {
+      "key": "diabetes__025pct__seed_19__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 19,
+      "model": "random_forest",
+      "roc_auc": 0.7936113386816829
+    },
+    {
+      "key": "diabetes__025pct__seed_20__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 20,
+      "model": "logistic_regression",
+      "roc_auc": 0.8244142614032305
+    },
+    {
+      "key": "diabetes__025pct__seed_20__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 20,
+      "model": "random_forest",
+      "roc_auc": 0.7959811381694878
+    },
+    {
+      "key": "diabetes__025pct__seed_21__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 21,
+      "model": "logistic_regression",
+      "roc_auc": 0.8186609121063069
+    },
+    {
+      "key": "diabetes__025pct__seed_21__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 21,
+      "model": "random_forest",
+      "roc_auc": 0.78974656551347
+    },
+    {
+      "key": "diabetes__025pct__seed_22__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 22,
+      "model": "logistic_regression",
+      "roc_auc": 0.8216279426806787
+    },
+    {
+      "key": "diabetes__025pct__seed_22__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 22,
+      "model": "random_forest",
+      "roc_auc": 0.7962094702223719
+    },
+    {
+      "key": "diabetes__025pct__seed_23__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 23,
+      "model": "logistic_regression",
+      "roc_auc": 0.8226078977070849
+    },
+    {
+      "key": "diabetes__025pct__seed_23__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 23,
+      "model": "random_forest",
+      "roc_auc": 0.7970109584256546
+    },
+    {
+      "key": "diabetes__025pct__seed_24__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 24,
+      "model": "logistic_regression",
+      "roc_auc": 0.8224743201193807
+    },
+    {
+      "key": "diabetes__025pct__seed_24__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 24,
+      "model": "random_forest",
+      "roc_auc": 0.7945854041522852
+    },
+    {
+      "key": "diabetes__025pct__seed_25__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 25,
+      "model": "logistic_regression",
+      "roc_auc": 0.8206154331183712
+    },
+    {
+      "key": "diabetes__025pct__seed_25__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 25,
+      "model": "random_forest",
+      "roc_auc": 0.7948898209728268
+    },
+    {
+      "key": "diabetes__025pct__seed_26__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 26,
+      "model": "logistic_regression",
+      "roc_auc": 0.8206423637440008
+    },
+    {
+      "key": "diabetes__025pct__seed_26__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 26,
+      "model": "random_forest",
+      "roc_auc": 0.7957050336552965
+    },
+    {
+      "key": "diabetes__025pct__seed_27__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 27,
+      "model": "logistic_regression",
+      "roc_auc": 0.8229403385113878
+    },
+    {
+      "key": "diabetes__025pct__seed_27__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 27,
+      "model": "random_forest",
+      "roc_auc": 0.7927065240854663
+    },
+    {
+      "key": "diabetes__025pct__seed_28__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 28,
+      "model": "logistic_regression",
+      "roc_auc": 0.8245297524177494
+    },
+    {
+      "key": "diabetes__025pct__seed_28__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 28,
+      "model": "random_forest",
+      "roc_auc": 0.7952460451511295
+    },
+    {
+      "key": "diabetes__025pct__seed_29__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 29,
+      "model": "logistic_regression",
+      "roc_auc": 0.8232613193026793
+    },
+    {
+      "key": "diabetes__025pct__seed_29__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 29,
+      "model": "random_forest",
+      "roc_auc": 0.7933490104799527
+    },
+    {
+      "key": "diabetes__050pct__seed_00__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 0,
+      "model": "logistic_regression",
+      "roc_auc": 0.8196638811065456
+    },
+    {
+      "key": "diabetes__050pct__seed_00__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 0,
+      "model": "random_forest",
+      "roc_auc": 0.7943541095038111
+    },
+    {
+      "key": "diabetes__050pct__seed_01__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 1,
+      "model": "logistic_regression",
+      "roc_auc": 0.8220052451839737
+    },
+    {
+      "key": "diabetes__050pct__seed_01__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 1,
+      "model": "random_forest",
+      "roc_auc": 0.7963720274698343
+    },
+    {
+      "key": "diabetes__050pct__seed_02__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 2,
+      "model": "logistic_regression",
+      "roc_auc": 0.8205176901409642
+    },
+    {
+      "key": "diabetes__050pct__seed_02__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 2,
+      "model": "random_forest",
+      "roc_auc": 0.7952538800745128
+    },
+    {
+      "key": "diabetes__050pct__seed_03__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 3,
+      "model": "logistic_regression",
+      "roc_auc": 0.8236342791494535
+    },
+    {
+      "key": "diabetes__050pct__seed_03__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 3,
+      "model": "random_forest",
+      "roc_auc": 0.7999409719431573
+    },
+    {
+      "key": "diabetes__050pct__seed_04__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 4,
+      "model": "logistic_regression",
+      "roc_auc": 0.8230620835344208
+    },
+    {
+      "key": "diabetes__050pct__seed_04__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 4,
+      "model": "random_forest",
+      "roc_auc": 0.7962188812012547
+    },
+    {
+      "key": "diabetes__050pct__seed_05__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 5,
+      "model": "logistic_regression",
+      "roc_auc": 0.8237116889051876
+    },
+    {
+      "key": "diabetes__050pct__seed_05__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 5,
+      "model": "random_forest",
+      "roc_auc": 0.7983177773199964
+    },
+    {
+      "key": "diabetes__050pct__seed_06__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 6,
+      "model": "logistic_regression",
+      "roc_auc": 0.8244546800187325
+    },
+    {
+      "key": "diabetes__050pct__seed_06__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 6,
+      "model": "random_forest",
+      "roc_auc": 0.7972106849902302
+    },
+    {
+      "key": "diabetes__050pct__seed_07__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 7,
+      "model": "logistic_regression",
+      "roc_auc": 0.8220259574364652
+    },
+    {
+      "key": "diabetes__050pct__seed_07__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 7,
+      "model": "random_forest",
+      "roc_auc": 0.7945514695554524
+    },
+    {
+      "key": "diabetes__050pct__seed_08__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 8,
+      "model": "logistic_regression",
+      "roc_auc": 0.8227595861648218
+    },
+    {
+      "key": "diabetes__050pct__seed_08__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 8,
+      "model": "random_forest",
+      "roc_auc": 0.7960678341802885
+    },
+    {
+      "key": "diabetes__050pct__seed_09__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 9,
+      "model": "logistic_regression",
+      "roc_auc": 0.8207121329511308
+    },
+    {
+      "key": "diabetes__050pct__seed_09__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 9,
+      "model": "random_forest",
+      "roc_auc": 0.7956520098353769
+    },
+    {
+      "key": "diabetes__050pct__seed_10__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 10,
+      "model": "logistic_regression",
+      "roc_auc": 0.820915674120744
+    },
+    {
+      "key": "diabetes__050pct__seed_10__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 10,
+      "model": "random_forest",
+      "roc_auc": 0.793104924351231
+    },
+    {
+      "key": "diabetes__050pct__seed_11__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 11,
+      "model": "logistic_regression",
+      "roc_auc": 0.8178754144681759
+    },
+    {
+      "key": "diabetes__050pct__seed_11__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 11,
+      "model": "random_forest",
+      "roc_auc": 0.7934650651813306
+    },
+    {
+      "key": "diabetes__050pct__seed_12__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 12,
+      "model": "logistic_regression",
+      "roc_auc": 0.8221076677341849
+    },
+    {
+      "key": "diabetes__050pct__seed_12__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 12,
+      "model": "random_forest",
+      "roc_auc": 0.7956452763690746
+    },
+    {
+      "key": "diabetes__050pct__seed_13__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 13,
+      "model": "logistic_regression",
+      "roc_auc": 0.8212482396488635
+    },
+    {
+      "key": "diabetes__050pct__seed_13__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 13,
+      "model": "random_forest",
+      "roc_auc": 0.7960230405124695
+    },
+    {
+      "key": "diabetes__050pct__seed_14__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 14,
+      "model": "logistic_regression",
+      "roc_auc": 0.8198454417282343
+    },
+    {
+      "key": "diabetes__050pct__seed_14__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 14,
+      "model": "random_forest",
+      "roc_auc": 0.7924699829377495
+    },
+    {
+      "key": "diabetes__050pct__seed_15__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 15,
+      "model": "logistic_regression",
+      "roc_auc": 0.8202994785349065
+    },
+    {
+      "key": "diabetes__050pct__seed_15__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 15,
+      "model": "random_forest",
+      "roc_auc": 0.7963762292046401
+    },
+    {
+      "key": "diabetes__050pct__seed_16__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 16,
+      "model": "logistic_regression",
+      "roc_auc": 0.8251040148845986
+    },
+    {
+      "key": "diabetes__050pct__seed_16__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 16,
+      "model": "random_forest",
+      "roc_auc": 0.7980781650507713
+    },
+    {
+      "key": "diabetes__050pct__seed_17__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 17,
+      "model": "logistic_regression",
+      "roc_auc": 0.822356004191407
+    },
+    {
+      "key": "diabetes__050pct__seed_17__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 17,
+      "model": "random_forest",
+      "roc_auc": 0.7966719882485673
+    },
+    {
+      "key": "diabetes__050pct__seed_18__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 18,
+      "model": "logistic_regression",
+      "roc_auc": 0.8242417732243514
+    },
+    {
+      "key": "diabetes__050pct__seed_18__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 18,
+      "model": "random_forest",
+      "roc_auc": 0.7965107235933854
+    },
+    {
+      "key": "diabetes__050pct__seed_19__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 19,
+      "model": "logistic_regression",
+      "roc_auc": 0.819207139250866
+    },
+    {
+      "key": "diabetes__050pct__seed_19__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 19,
+      "model": "random_forest",
+      "roc_auc": 0.795148473871444
+    },
+    {
+      "key": "diabetes__050pct__seed_20__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 20,
+      "model": "logistic_regression",
+      "roc_auc": 0.8244326201011065
+    },
+    {
+      "key": "diabetes__050pct__seed_20__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 20,
+      "model": "random_forest",
+      "roc_auc": 0.7983741298080063
+    },
+    {
+      "key": "diabetes__050pct__seed_21__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 21,
+      "model": "logistic_regression",
+      "roc_auc": 0.8191108103499762
+    },
+    {
+      "key": "diabetes__050pct__seed_21__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 21,
+      "model": "random_forest",
+      "roc_auc": 0.7925264536704167
+    },
+    {
+      "key": "diabetes__050pct__seed_22__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 22,
+      "model": "logistic_regression",
+      "roc_auc": 0.8218323909325941
+    },
+    {
+      "key": "diabetes__050pct__seed_22__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 22,
+      "model": "random_forest",
+      "roc_auc": 0.7975876635355601
+    },
+    {
+      "key": "diabetes__050pct__seed_23__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 23,
+      "model": "logistic_regression",
+      "roc_auc": 0.822795709097708
+    },
+    {
+      "key": "diabetes__050pct__seed_23__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 23,
+      "model": "random_forest",
+      "roc_auc": 0.797801858062852
+    },
+    {
+      "key": "diabetes__050pct__seed_24__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 24,
+      "model": "logistic_regression",
+      "roc_auc": 0.8227684415557948
+    },
+    {
+      "key": "diabetes__050pct__seed_24__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 24,
+      "model": "random_forest",
+      "roc_auc": 0.7958426461394545
+    },
+    {
+      "key": "diabetes__050pct__seed_25__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 25,
+      "model": "logistic_regression",
+      "roc_auc": 0.8206536439603418
+    },
+    {
+      "key": "diabetes__050pct__seed_25__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 25,
+      "model": "random_forest",
+      "roc_auc": 0.7986120024229594
+    },
+    {
+      "key": "diabetes__050pct__seed_26__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 26,
+      "model": "logistic_regression",
+      "roc_auc": 0.8205787950923206
+    },
+    {
+      "key": "diabetes__050pct__seed_26__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 26,
+      "model": "random_forest",
+      "roc_auc": 0.7964157342586808
+    },
+    {
+      "key": "diabetes__050pct__seed_27__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 27,
+      "model": "logistic_regression",
+      "roc_auc": 0.823137245021878
+    },
+    {
+      "key": "diabetes__050pct__seed_27__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 27,
+      "model": "random_forest",
+      "roc_auc": 0.7946851054555903
+    },
+    {
+      "key": "diabetes__050pct__seed_28__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 28,
+      "model": "logistic_regression",
+      "roc_auc": 0.8244820544667741
+    },
+    {
+      "key": "diabetes__050pct__seed_28__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 28,
+      "model": "random_forest",
+      "roc_auc": 0.7986946521987773
+    },
+    {
+      "key": "diabetes__050pct__seed_29__logistic_regression",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 29,
+      "model": "logistic_regression",
+      "roc_auc": 0.8237254376812219
+    },
+    {
+      "key": "diabetes__050pct__seed_29__random_forest",
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 29,
+      "model": "random_forest",
+      "roc_auc": 0.7965185763344567
+    },
+    {
+      "key": "cleveland__005pct__seed_00__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 0,
+      "model": "logistic_regression",
+      "roc_auc": 0.8235930735930735
+    },
+    {
+      "key": "cleveland__005pct__seed_00__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 0,
+      "model": "random_forest",
+      "roc_auc": 0.8755411255411256
+    },
+    {
+      "key": "cleveland__005pct__seed_01__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 1,
+      "model": "logistic_regression",
+      "roc_auc": 0.8354978354978355
+    },
+    {
+      "key": "cleveland__005pct__seed_01__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 1,
+      "model": "random_forest",
+      "roc_auc": 0.8371212121212122
+    },
+    {
+      "key": "cleveland__005pct__seed_02__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 2,
+      "model": "logistic_regression",
+      "roc_auc": 0.7997835497835498
+    },
+    {
+      "key": "cleveland__005pct__seed_02__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 2,
+      "model": "random_forest",
+      "roc_auc": 0.9036796536796536
+    },
+    {
+      "key": "cleveland__005pct__seed_03__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 3,
+      "model": "logistic_regression",
+      "roc_auc": 0.8690476190476191
+    },
+    {
+      "key": "cleveland__005pct__seed_03__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 3,
+      "model": "random_forest",
+      "roc_auc": 0.8409090909090909
+    },
+    {
+      "key": "cleveland__005pct__seed_04__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 4,
+      "model": "logistic_regression",
+      "roc_auc": 0.9155844155844156
+    },
+    {
+      "key": "cleveland__005pct__seed_04__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 4,
+      "model": "random_forest",
+      "roc_auc": 0.8977272727272727
+    },
+    {
+      "key": "cleveland__005pct__seed_05__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 5,
+      "model": "logistic_regression",
+      "roc_auc": 0.6948051948051948
+    },
+    {
+      "key": "cleveland__005pct__seed_05__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 5,
+      "model": "random_forest",
+      "roc_auc": 0.7765151515151515
+    },
+    {
+      "key": "cleveland__005pct__seed_06__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 6,
+      "model": "logistic_regression",
+      "roc_auc": 0.8582251082251082
+    },
+    {
+      "key": "cleveland__005pct__seed_06__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 6,
+      "model": "random_forest",
+      "roc_auc": 0.8246753246753247
+    },
+    {
+      "key": "cleveland__005pct__seed_07__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 7,
+      "model": "logistic_regression",
+      "roc_auc": 0.7954545454545454
+    },
+    {
+      "key": "cleveland__005pct__seed_07__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 7,
+      "model": "random_forest",
+      "roc_auc": 0.908008658008658
+    },
+    {
+      "key": "cleveland__005pct__seed_08__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 8,
+      "model": "logistic_regression",
+      "roc_auc": 0.8322510822510822
+    },
+    {
+      "key": "cleveland__005pct__seed_08__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 8,
+      "model": "random_forest",
+      "roc_auc": 0.8284632034632035
+    },
+    {
+      "key": "cleveland__005pct__seed_09__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 9,
+      "model": "logistic_regression",
+      "roc_auc": 0.764069264069264
+    },
+    {
+      "key": "cleveland__005pct__seed_09__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 9,
+      "model": "random_forest",
+      "roc_auc": 0.7640692640692641
+    },
+    {
+      "key": "cleveland__005pct__seed_10__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 10,
+      "model": "logistic_regression",
+      "roc_auc": 0.6948051948051948
+    },
+    {
+      "key": "cleveland__005pct__seed_10__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 10,
+      "model": "random_forest",
+      "roc_auc": 0.849025974025974
+    },
+    {
+      "key": "cleveland__005pct__seed_11__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 11,
+      "model": "logistic_regression",
+      "roc_auc": 0.8755411255411256
+    },
+    {
+      "key": "cleveland__005pct__seed_11__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 11,
+      "model": "random_forest",
+      "roc_auc": 0.8371212121212122
+    },
+    {
+      "key": "cleveland__005pct__seed_12__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 12,
+      "model": "logistic_regression",
+      "roc_auc": 0.8181818181818182
+    },
+    {
+      "key": "cleveland__005pct__seed_12__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 12,
+      "model": "random_forest",
+      "roc_auc": 0.8744588744588744
+    },
+    {
+      "key": "cleveland__005pct__seed_13__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 13,
+      "model": "logistic_regression",
+      "roc_auc": 0.7716450216450217
+    },
+    {
+      "key": "cleveland__005pct__seed_13__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 13,
+      "model": "random_forest",
+      "roc_auc": 0.8463203463203464
+    },
+    {
+      "key": "cleveland__005pct__seed_14__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 14,
+      "model": "logistic_regression",
+      "roc_auc": 0.5281385281385281
+    },
+    {
+      "key": "cleveland__005pct__seed_14__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 14,
+      "model": "random_forest",
+      "roc_auc": 0.4794372294372295
+    },
+    {
+      "key": "cleveland__005pct__seed_15__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 15,
+      "model": "logistic_regression",
+      "roc_auc": 0.8647186147186147
+    },
+    {
+      "key": "cleveland__005pct__seed_15__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 15,
+      "model": "random_forest",
+      "roc_auc": 0.8641774891774893
+    },
+    {
+      "key": "cleveland__005pct__seed_16__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 16,
+      "model": "logistic_regression",
+      "roc_auc": 0.8506493506493507
+    },
+    {
+      "key": "cleveland__005pct__seed_16__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 16,
+      "model": "random_forest",
+      "roc_auc": 0.7997835497835498
+    },
+    {
+      "key": "cleveland__005pct__seed_17__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 17,
+      "model": "logistic_regression",
+      "roc_auc": 0.8430735930735931
+    },
+    {
+      "key": "cleveland__005pct__seed_17__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 17,
+      "model": "random_forest",
+      "roc_auc": 0.9145021645021645
+    },
+    {
+      "key": "cleveland__005pct__seed_18__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 18,
+      "model": "logistic_regression",
+      "roc_auc": 0.7251082251082251
+    },
+    {
+      "key": "cleveland__005pct__seed_18__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 18,
+      "model": "random_forest",
+      "roc_auc": 0.6953463203463203
+    },
+    {
+      "key": "cleveland__005pct__seed_19__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 19,
+      "model": "logistic_regression",
+      "roc_auc": 0.8338744588744589
+    },
+    {
+      "key": "cleveland__005pct__seed_19__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 19,
+      "model": "random_forest",
+      "roc_auc": 0.8457792207792209
+    },
+    {
+      "key": "cleveland__005pct__seed_20__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 20,
+      "model": "logistic_regression",
+      "roc_auc": 0.7943722943722943
+    },
+    {
+      "key": "cleveland__005pct__seed_20__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 20,
+      "model": "random_forest",
+      "roc_auc": 0.814935064935065
+    },
+    {
+      "key": "cleveland__005pct__seed_21__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 21,
+      "model": "logistic_regression",
+      "roc_auc": 0.8668831168831169
+    },
+    {
+      "key": "cleveland__005pct__seed_21__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 21,
+      "model": "random_forest",
+      "roc_auc": 0.8538961038961039
+    },
+    {
+      "key": "cleveland__005pct__seed_22__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 22,
+      "model": "logistic_regression",
+      "roc_auc": 0.8257575757575758
+    },
+    {
+      "key": "cleveland__005pct__seed_22__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 22,
+      "model": "random_forest",
+      "roc_auc": 0.8576839826839827
+    },
+    {
+      "key": "cleveland__005pct__seed_23__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 23,
+      "model": "logistic_regression",
+      "roc_auc": 0.7857142857142858
+    },
+    {
+      "key": "cleveland__005pct__seed_23__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 23,
+      "model": "random_forest",
+      "roc_auc": 0.8641774891774892
+    },
+    {
+      "key": "cleveland__005pct__seed_24__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 24,
+      "model": "logistic_regression",
+      "roc_auc": 0.8809523809523809
+    },
+    {
+      "key": "cleveland__005pct__seed_24__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 24,
+      "model": "random_forest",
+      "roc_auc": 0.9112554112554112
+    },
+    {
+      "key": "cleveland__005pct__seed_25__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 25,
+      "model": "logistic_regression",
+      "roc_auc": 0.7402597402597402
+    },
+    {
+      "key": "cleveland__005pct__seed_25__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 25,
+      "model": "random_forest",
+      "roc_auc": 0.7835497835497836
+    },
+    {
+      "key": "cleveland__005pct__seed_26__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 26,
+      "model": "logistic_regression",
+      "roc_auc": 0.8225108225108225
+    },
+    {
+      "key": "cleveland__005pct__seed_26__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 26,
+      "model": "random_forest",
+      "roc_auc": 0.7792207792207791
+    },
+    {
+      "key": "cleveland__005pct__seed_27__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 27,
+      "model": "logistic_regression",
+      "roc_auc": 0.7067099567099567
+    },
+    {
+      "key": "cleveland__005pct__seed_27__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 27,
+      "model": "random_forest",
+      "roc_auc": 0.8457792207792209
+    },
+    {
+      "key": "cleveland__005pct__seed_28__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 28,
+      "model": "logistic_regression",
+      "roc_auc": 0.8246753246753247
+    },
+    {
+      "key": "cleveland__005pct__seed_28__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 28,
+      "model": "random_forest",
+      "roc_auc": 0.9291125541125541
+    },
+    {
+      "key": "cleveland__005pct__seed_29__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 29,
+      "model": "logistic_regression",
+      "roc_auc": 0.43722943722943725
+    },
+    {
+      "key": "cleveland__005pct__seed_29__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "seed": 29,
+      "model": "random_forest",
+      "roc_auc": 0.4361471861471861
+    },
+    {
+      "key": "cleveland__010pct__seed_00__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 0,
+      "model": "logistic_regression",
+      "roc_auc": 0.7987012987012987
+    },
+    {
+      "key": "cleveland__010pct__seed_00__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 0,
+      "model": "random_forest",
+      "roc_auc": 0.8625541125541125
+    },
+    {
+      "key": "cleveland__010pct__seed_01__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 1,
+      "model": "logistic_regression",
+      "roc_auc": 0.8528138528138528
+    },
+    {
+      "key": "cleveland__010pct__seed_01__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 1,
+      "model": "random_forest",
+      "roc_auc": 0.8295454545454546
+    },
+    {
+      "key": "cleveland__010pct__seed_02__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 2,
+      "model": "logistic_regression",
+      "roc_auc": 0.762987012987013
+    },
+    {
+      "key": "cleveland__010pct__seed_02__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 2,
+      "model": "random_forest",
+      "roc_auc": 0.8993506493506493
+    },
+    {
+      "key": "cleveland__010pct__seed_03__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 3,
+      "model": "logistic_regression",
+      "roc_auc": 0.8950216450216449
+    },
+    {
+      "key": "cleveland__010pct__seed_03__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 3,
+      "model": "random_forest",
+      "roc_auc": 0.8376623376623378
+    },
+    {
+      "key": "cleveland__010pct__seed_04__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 4,
+      "model": "logistic_regression",
+      "roc_auc": 0.8365800865800866
+    },
+    {
+      "key": "cleveland__010pct__seed_04__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 4,
+      "model": "random_forest",
+      "roc_auc": 0.9020562770562771
+    },
+    {
+      "key": "cleveland__010pct__seed_05__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 5,
+      "model": "logistic_regression",
+      "roc_auc": 0.8484848484848485
+    },
+    {
+      "key": "cleveland__010pct__seed_05__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 5,
+      "model": "random_forest",
+      "roc_auc": 0.8685064935064934
+    },
+    {
+      "key": "cleveland__010pct__seed_06__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 6,
+      "model": "logistic_regression",
+      "roc_auc": 0.7478354978354979
+    },
+    {
+      "key": "cleveland__010pct__seed_06__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 6,
+      "model": "random_forest",
+      "roc_auc": 0.8419913419913421
+    },
+    {
+      "key": "cleveland__010pct__seed_07__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 7,
+      "model": "logistic_regression",
+      "roc_auc": 0.8322510822510822
+    },
+    {
+      "key": "cleveland__010pct__seed_07__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 7,
+      "model": "random_forest",
+      "roc_auc": 0.8961038961038961
+    },
+    {
+      "key": "cleveland__010pct__seed_08__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 8,
+      "model": "logistic_regression",
+      "roc_auc": 0.8863636363636364
+    },
+    {
+      "key": "cleveland__010pct__seed_08__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 8,
+      "model": "random_forest",
+      "roc_auc": 0.8495670995670995
+    },
+    {
+      "key": "cleveland__010pct__seed_09__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 9,
+      "model": "logistic_regression",
+      "roc_auc": 0.7067099567099567
+    },
+    {
+      "key": "cleveland__010pct__seed_09__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 9,
+      "model": "random_forest",
+      "roc_auc": 0.7489177489177489
+    },
+    {
+      "key": "cleveland__010pct__seed_10__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 10,
+      "model": "logistic_regression",
+      "roc_auc": 0.8030303030303031
+    },
+    {
+      "key": "cleveland__010pct__seed_10__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 10,
+      "model": "random_forest",
+      "roc_auc": 0.8566017316017316
+    },
+    {
+      "key": "cleveland__010pct__seed_11__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 11,
+      "model": "logistic_regression",
+      "roc_auc": 0.8463203463203464
+    },
+    {
+      "key": "cleveland__010pct__seed_11__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 11,
+      "model": "random_forest",
+      "roc_auc": 0.8511904761904763
+    },
+    {
+      "key": "cleveland__010pct__seed_12__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 12,
+      "model": "logistic_regression",
+      "roc_auc": 0.8841991341991342
+    },
+    {
+      "key": "cleveland__010pct__seed_12__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 12,
+      "model": "random_forest",
+      "roc_auc": 0.8847402597402597
+    },
+    {
+      "key": "cleveland__010pct__seed_13__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 13,
+      "model": "logistic_regression",
+      "roc_auc": 0.7987012987012987
+    },
+    {
+      "key": "cleveland__010pct__seed_13__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 13,
+      "model": "random_forest",
+      "roc_auc": 0.8051948051948052
+    },
+    {
+      "key": "cleveland__010pct__seed_14__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 14,
+      "model": "logistic_regression",
+      "roc_auc": 0.7056277056277056
+    },
+    {
+      "key": "cleveland__010pct__seed_14__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 14,
+      "model": "random_forest",
+      "roc_auc": 0.8576839826839826
+    },
+    {
+      "key": "cleveland__010pct__seed_15__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 15,
+      "model": "logistic_regression",
+      "roc_auc": 0.8517316017316017
+    },
+    {
+      "key": "cleveland__010pct__seed_15__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 15,
+      "model": "random_forest",
+      "roc_auc": 0.8885281385281385
+    },
+    {
+      "key": "cleveland__010pct__seed_16__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 16,
+      "model": "logistic_regression",
+      "roc_auc": 0.8658008658008658
+    },
+    {
+      "key": "cleveland__010pct__seed_16__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 16,
+      "model": "random_forest",
+      "roc_auc": 0.8073593073593074
+    },
+    {
+      "key": "cleveland__010pct__seed_17__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 17,
+      "model": "logistic_regression",
+      "roc_auc": 0.8181818181818181
+    },
+    {
+      "key": "cleveland__010pct__seed_17__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 17,
+      "model": "random_forest",
+      "roc_auc": 0.8647186147186147
+    },
+    {
+      "key": "cleveland__010pct__seed_18__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 18,
+      "model": "logistic_regression",
+      "roc_auc": 0.7857142857142858
+    },
+    {
+      "key": "cleveland__010pct__seed_18__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 18,
+      "model": "random_forest",
+      "roc_auc": 0.7922077922077922
+    },
+    {
+      "key": "cleveland__010pct__seed_19__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 19,
+      "model": "logistic_regression",
+      "roc_auc": 0.8766233766233765
+    },
+    {
+      "key": "cleveland__010pct__seed_19__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 19,
+      "model": "random_forest",
+      "roc_auc": 0.9096320346320346
+    },
+    {
+      "key": "cleveland__010pct__seed_20__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 20,
+      "model": "logistic_regression",
+      "roc_auc": 0.7272727272727272
+    },
+    {
+      "key": "cleveland__010pct__seed_20__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 20,
+      "model": "random_forest",
+      "roc_auc": 0.7624458874458874
+    },
+    {
+      "key": "cleveland__010pct__seed_21__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 21,
+      "model": "logistic_regression",
+      "roc_auc": 0.8982683982683983
+    },
+    {
+      "key": "cleveland__010pct__seed_21__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 21,
+      "model": "random_forest",
+      "roc_auc": 0.9031385281385282
+    },
+    {
+      "key": "cleveland__010pct__seed_22__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 22,
+      "model": "logistic_regression",
+      "roc_auc": 0.7435064935064934
+    },
+    {
+      "key": "cleveland__010pct__seed_22__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 22,
+      "model": "random_forest",
+      "roc_auc": 0.8679653679653679
+    },
+    {
+      "key": "cleveland__010pct__seed_23__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 23,
+      "model": "logistic_regression",
+      "roc_auc": 0.8062770562770563
+    },
+    {
+      "key": "cleveland__010pct__seed_23__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 23,
+      "model": "random_forest",
+      "roc_auc": 0.8739177489177489
+    },
+    {
+      "key": "cleveland__010pct__seed_24__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 24,
+      "model": "logistic_regression",
+      "roc_auc": 0.9318181818181818
+    },
+    {
+      "key": "cleveland__010pct__seed_24__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 24,
+      "model": "random_forest",
+      "roc_auc": 0.9166666666666667
+    },
+    {
+      "key": "cleveland__010pct__seed_25__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 25,
+      "model": "logistic_regression",
+      "roc_auc": 0.696969696969697
+    },
+    {
+      "key": "cleveland__010pct__seed_25__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 25,
+      "model": "random_forest",
+      "roc_auc": 0.7987012987012987
+    },
+    {
+      "key": "cleveland__010pct__seed_26__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 26,
+      "model": "logistic_regression",
+      "roc_auc": 0.8484848484848485
+    },
+    {
+      "key": "cleveland__010pct__seed_26__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 26,
+      "model": "random_forest",
+      "roc_auc": 0.8630952380952381
+    },
+    {
+      "key": "cleveland__010pct__seed_27__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 27,
+      "model": "logistic_regression",
+      "roc_auc": 0.7132034632034632
+    },
+    {
+      "key": "cleveland__010pct__seed_27__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 27,
+      "model": "random_forest",
+      "roc_auc": 0.9063852813852814
+    },
+    {
+      "key": "cleveland__010pct__seed_28__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 28,
+      "model": "logistic_regression",
+      "roc_auc": 0.854978354978355
+    },
+    {
+      "key": "cleveland__010pct__seed_28__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 28,
+      "model": "random_forest",
+      "roc_auc": 0.8766233766233765
+    },
+    {
+      "key": "cleveland__010pct__seed_29__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 29,
+      "model": "logistic_regression",
+      "roc_auc": 0.7781385281385281
+    },
+    {
+      "key": "cleveland__010pct__seed_29__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "seed": 29,
+      "model": "random_forest",
+      "roc_auc": 0.7510822510822511
+    },
+    {
+      "key": "cleveland__025pct__seed_00__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 0,
+      "model": "logistic_regression",
+      "roc_auc": 0.9318181818181819
+    },
+    {
+      "key": "cleveland__025pct__seed_00__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 0,
+      "model": "random_forest",
+      "roc_auc": 0.8977272727272727
+    },
+    {
+      "key": "cleveland__025pct__seed_01__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 1,
+      "model": "logistic_regression",
+      "roc_auc": 0.8722943722943723
+    },
+    {
+      "key": "cleveland__025pct__seed_01__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 1,
+      "model": "random_forest",
+      "roc_auc": 0.8663419913419913
+    },
+    {
+      "key": "cleveland__025pct__seed_02__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 2,
+      "model": "logistic_regression",
+      "roc_auc": 0.8690476190476191
+    },
+    {
+      "key": "cleveland__025pct__seed_02__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 2,
+      "model": "random_forest",
+      "roc_auc": 0.9047619047619047
+    },
+    {
+      "key": "cleveland__025pct__seed_03__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 3,
+      "model": "logistic_regression",
+      "roc_auc": 0.8365800865800866
+    },
+    {
+      "key": "cleveland__025pct__seed_03__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 3,
+      "model": "random_forest",
+      "roc_auc": 0.8733766233766234
+    },
+    {
+      "key": "cleveland__025pct__seed_04__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 4,
+      "model": "logistic_regression",
+      "roc_auc": 0.8982683982683982
+    },
+    {
+      "key": "cleveland__025pct__seed_04__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 4,
+      "model": "random_forest",
+      "roc_auc": 0.9134199134199135
+    },
+    {
+      "key": "cleveland__025pct__seed_05__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 5,
+      "model": "logistic_regression",
+      "roc_auc": 0.9155844155844156
+    },
+    {
+      "key": "cleveland__025pct__seed_05__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 5,
+      "model": "random_forest",
+      "roc_auc": 0.948051948051948
+    },
+    {
+      "key": "cleveland__025pct__seed_06__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 6,
+      "model": "logistic_regression",
+      "roc_auc": 0.8538961038961039
+    },
+    {
+      "key": "cleveland__025pct__seed_06__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 6,
+      "model": "random_forest",
+      "roc_auc": 0.8257575757575758
+    },
+    {
+      "key": "cleveland__025pct__seed_07__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 7,
+      "model": "logistic_regression",
+      "roc_auc": 0.9047619047619048
+    },
+    {
+      "key": "cleveland__025pct__seed_07__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 7,
+      "model": "random_forest",
+      "roc_auc": 0.9155844155844156
+    },
+    {
+      "key": "cleveland__025pct__seed_08__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 8,
+      "model": "logistic_regression",
+      "roc_auc": 0.8625541125541126
+    },
+    {
+      "key": "cleveland__025pct__seed_08__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 8,
+      "model": "random_forest",
+      "roc_auc": 0.8398268398268398
+    },
+    {
+      "key": "cleveland__025pct__seed_09__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 9,
+      "model": "logistic_regression",
+      "roc_auc": 0.7976190476190477
+    },
+    {
+      "key": "cleveland__025pct__seed_09__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 9,
+      "model": "random_forest",
+      "roc_auc": 0.8100649350649352
+    },
+    {
+      "key": "cleveland__025pct__seed_10__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 10,
+      "model": "logistic_regression",
+      "roc_auc": 0.8582251082251082
+    },
+    {
+      "key": "cleveland__025pct__seed_10__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 10,
+      "model": "random_forest",
+      "roc_auc": 0.913961038961039
+    },
+    {
+      "key": "cleveland__025pct__seed_11__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 11,
+      "model": "logistic_regression",
+      "roc_auc": 0.9047619047619048
+    },
+    {
+      "key": "cleveland__025pct__seed_11__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 11,
+      "model": "random_forest",
+      "roc_auc": 0.9042207792207791
+    },
+    {
+      "key": "cleveland__025pct__seed_12__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 12,
+      "model": "logistic_regression",
+      "roc_auc": 0.908008658008658
+    },
+    {
+      "key": "cleveland__025pct__seed_12__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 12,
+      "model": "random_forest",
+      "roc_auc": 0.9188311688311689
+    },
+    {
+      "key": "cleveland__025pct__seed_13__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 13,
+      "model": "logistic_regression",
+      "roc_auc": 0.8160173160173161
+    },
+    {
+      "key": "cleveland__025pct__seed_13__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 13,
+      "model": "random_forest",
+      "roc_auc": 0.7976190476190477
+    },
+    {
+      "key": "cleveland__025pct__seed_14__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 14,
+      "model": "logistic_regression",
+      "roc_auc": 0.8095238095238095
+    },
+    {
+      "key": "cleveland__025pct__seed_14__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 14,
+      "model": "random_forest",
+      "roc_auc": 0.8971861471861472
+    },
+    {
+      "key": "cleveland__025pct__seed_15__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 15,
+      "model": "logistic_regression",
+      "roc_auc": 0.8766233766233766
+    },
+    {
+      "key": "cleveland__025pct__seed_15__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 15,
+      "model": "random_forest",
+      "roc_auc": 0.8344155844155844
+    },
+    {
+      "key": "cleveland__025pct__seed_16__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 16,
+      "model": "logistic_regression",
+      "roc_auc": 0.8658008658008658
+    },
+    {
+      "key": "cleveland__025pct__seed_16__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 16,
+      "model": "random_forest",
+      "roc_auc": 0.8327922077922078
+    },
+    {
+      "key": "cleveland__025pct__seed_17__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 17,
+      "model": "logistic_regression",
+      "roc_auc": 0.9448051948051948
+    },
+    {
+      "key": "cleveland__025pct__seed_17__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 17,
+      "model": "random_forest",
+      "roc_auc": 0.9036796536796536
+    },
+    {
+      "key": "cleveland__025pct__seed_18__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 18,
+      "model": "logistic_regression",
+      "roc_auc": 0.8852813852813853
+    },
+    {
+      "key": "cleveland__025pct__seed_18__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 18,
+      "model": "random_forest",
+      "roc_auc": 0.860930735930736
+    },
+    {
+      "key": "cleveland__025pct__seed_19__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 19,
+      "model": "logistic_regression",
+      "roc_auc": 0.908008658008658
+    },
+    {
+      "key": "cleveland__025pct__seed_19__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 19,
+      "model": "random_forest",
+      "roc_auc": 0.8398268398268399
+    },
+    {
+      "key": "cleveland__025pct__seed_20__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 20,
+      "model": "logistic_regression",
+      "roc_auc": 0.8668831168831169
+    },
+    {
+      "key": "cleveland__025pct__seed_20__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 20,
+      "model": "random_forest",
+      "roc_auc": 0.803030303030303
+    },
+    {
+      "key": "cleveland__025pct__seed_21__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 21,
+      "model": "logistic_regression",
+      "roc_auc": 0.8939393939393939
+    },
+    {
+      "key": "cleveland__025pct__seed_21__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 21,
+      "model": "random_forest",
+      "roc_auc": 0.9155844155844156
+    },
+    {
+      "key": "cleveland__025pct__seed_22__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 22,
+      "model": "logistic_regression",
+      "roc_auc": 0.8701298701298701
+    },
+    {
+      "key": "cleveland__025pct__seed_22__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 22,
+      "model": "random_forest",
+      "roc_auc": 0.895021645021645
+    },
+    {
+      "key": "cleveland__025pct__seed_23__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 23,
+      "model": "logistic_regression",
+      "roc_auc": 0.8961038961038961
+    },
+    {
+      "key": "cleveland__025pct__seed_23__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 23,
+      "model": "random_forest",
+      "roc_auc": 0.948051948051948
+    },
+    {
+      "key": "cleveland__025pct__seed_24__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 24,
+      "model": "logistic_regression",
+      "roc_auc": 0.9350649350649352
+    },
+    {
+      "key": "cleveland__025pct__seed_24__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 24,
+      "model": "random_forest",
+      "roc_auc": 0.9361471861471862
+    },
+    {
+      "key": "cleveland__025pct__seed_25__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 25,
+      "model": "logistic_regression",
+      "roc_auc": 0.8192640692640693
+    },
+    {
+      "key": "cleveland__025pct__seed_25__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 25,
+      "model": "random_forest",
+      "roc_auc": 0.849025974025974
+    },
+    {
+      "key": "cleveland__025pct__seed_26__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 26,
+      "model": "logistic_regression",
+      "roc_auc": 0.8409090909090908
+    },
+    {
+      "key": "cleveland__025pct__seed_26__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 26,
+      "model": "random_forest",
+      "roc_auc": 0.8831168831168831
+    },
+    {
+      "key": "cleveland__025pct__seed_27__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 27,
+      "model": "logistic_regression",
+      "roc_auc": 0.908008658008658
+    },
+    {
+      "key": "cleveland__025pct__seed_27__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 27,
+      "model": "random_forest",
+      "roc_auc": 0.9231601731601731
+    },
+    {
+      "key": "cleveland__025pct__seed_28__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 28,
+      "model": "logistic_regression",
+      "roc_auc": 0.8863636363636364
+    },
+    {
+      "key": "cleveland__025pct__seed_28__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 28,
+      "model": "random_forest",
+      "roc_auc": 0.9177489177489178
+    },
+    {
+      "key": "cleveland__025pct__seed_29__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 29,
+      "model": "logistic_regression",
+      "roc_auc": 0.8852813852813852
+    },
+    {
+      "key": "cleveland__025pct__seed_29__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "seed": 29,
+      "model": "random_forest",
+      "roc_auc": 0.8566017316017316
+    },
+    {
+      "key": "cleveland__050pct__seed_00__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 0,
+      "model": "logistic_regression",
+      "roc_auc": 0.9534632034632036
+    },
+    {
+      "key": "cleveland__050pct__seed_00__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 0,
+      "model": "random_forest",
+      "roc_auc": 0.9512987012987013
+    },
+    {
+      "key": "cleveland__050pct__seed_01__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 1,
+      "model": "logistic_regression",
+      "roc_auc": 0.908008658008658
+    },
+    {
+      "key": "cleveland__050pct__seed_01__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 1,
+      "model": "random_forest",
+      "roc_auc": 0.8663419913419914
+    },
+    {
+      "key": "cleveland__050pct__seed_02__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 2,
+      "model": "logistic_regression",
+      "roc_auc": 0.8777056277056277
+    },
+    {
+      "key": "cleveland__050pct__seed_02__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 2,
+      "model": "random_forest",
+      "roc_auc": 0.8798701298701299
+    },
+    {
+      "key": "cleveland__050pct__seed_03__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 3,
+      "model": "logistic_regression",
+      "roc_auc": 0.8712121212121212
+    },
+    {
+      "key": "cleveland__050pct__seed_03__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 3,
+      "model": "random_forest",
+      "roc_auc": 0.895021645021645
+    },
+    {
+      "key": "cleveland__050pct__seed_04__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 4,
+      "model": "logistic_regression",
+      "roc_auc": 0.9220779220779222
+    },
+    {
+      "key": "cleveland__050pct__seed_04__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 4,
+      "model": "random_forest",
+      "roc_auc": 0.9307359307359307
+    },
+    {
+      "key": "cleveland__050pct__seed_05__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 5,
+      "model": "logistic_regression",
+      "roc_auc": 0.9123376623376624
+    },
+    {
+      "key": "cleveland__050pct__seed_05__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 5,
+      "model": "random_forest",
+      "roc_auc": 0.9074675324675325
+    },
+    {
+      "key": "cleveland__050pct__seed_06__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 6,
+      "model": "logistic_regression",
+      "roc_auc": 0.8896103896103895
+    },
+    {
+      "key": "cleveland__050pct__seed_06__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 6,
+      "model": "random_forest",
+      "roc_auc": 0.8571428571428572
+    },
+    {
+      "key": "cleveland__050pct__seed_07__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 7,
+      "model": "logistic_regression",
+      "roc_auc": 0.9567099567099567
+    },
+    {
+      "key": "cleveland__050pct__seed_07__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 7,
+      "model": "random_forest",
+      "roc_auc": 0.9372294372294372
+    },
+    {
+      "key": "cleveland__050pct__seed_08__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 8,
+      "model": "logistic_regression",
+      "roc_auc": 0.895021645021645
+    },
+    {
+      "key": "cleveland__050pct__seed_08__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 8,
+      "model": "random_forest",
+      "roc_auc": 0.836038961038961
+    },
+    {
+      "key": "cleveland__050pct__seed_09__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 9,
+      "model": "logistic_regression",
+      "roc_auc": 0.788961038961039
+    },
+    {
+      "key": "cleveland__050pct__seed_09__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 9,
+      "model": "random_forest",
+      "roc_auc": 0.7927489177489178
+    },
+    {
+      "key": "cleveland__050pct__seed_10__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 10,
+      "model": "logistic_regression",
+      "roc_auc": 0.8982683982683982
+    },
+    {
+      "key": "cleveland__050pct__seed_10__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 10,
+      "model": "random_forest",
+      "roc_auc": 0.9188311688311689
+    },
+    {
+      "key": "cleveland__050pct__seed_11__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 11,
+      "model": "logistic_regression",
+      "roc_auc": 0.9145021645021646
+    },
+    {
+      "key": "cleveland__050pct__seed_11__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 11,
+      "model": "random_forest",
+      "roc_auc": 0.895021645021645
+    },
+    {
+      "key": "cleveland__050pct__seed_12__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 12,
+      "model": "logistic_regression",
+      "roc_auc": 0.9274891774891775
+    },
+    {
+      "key": "cleveland__050pct__seed_12__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 12,
+      "model": "random_forest",
+      "roc_auc": 0.9404761904761905
+    },
+    {
+      "key": "cleveland__050pct__seed_13__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 13,
+      "model": "logistic_regression",
+      "roc_auc": 0.8777056277056277
+    },
+    {
+      "key": "cleveland__050pct__seed_13__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 13,
+      "model": "random_forest",
+      "roc_auc": 0.8436147186147186
+    },
+    {
+      "key": "cleveland__050pct__seed_14__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 14,
+      "model": "logistic_regression",
+      "roc_auc": 0.9069264069264069
+    },
+    {
+      "key": "cleveland__050pct__seed_14__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 14,
+      "model": "random_forest",
+      "roc_auc": 0.9166666666666667
+    },
+    {
+      "key": "cleveland__050pct__seed_15__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 15,
+      "model": "logistic_regression",
+      "roc_auc": 0.8950216450216449
+    },
+    {
+      "key": "cleveland__050pct__seed_15__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 15,
+      "model": "random_forest",
+      "roc_auc": 0.8371212121212122
+    },
+    {
+      "key": "cleveland__050pct__seed_16__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 16,
+      "model": "logistic_regression",
+      "roc_auc": 0.8874458874458875
+    },
+    {
+      "key": "cleveland__050pct__seed_16__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 16,
+      "model": "random_forest",
+      "roc_auc": 0.8603896103896104
+    },
+    {
+      "key": "cleveland__050pct__seed_17__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 17,
+      "model": "logistic_regression",
+      "roc_auc": 0.9296536796536796
+    },
+    {
+      "key": "cleveland__050pct__seed_17__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 17,
+      "model": "random_forest",
+      "roc_auc": 0.889069264069264
+    },
+    {
+      "key": "cleveland__050pct__seed_18__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 18,
+      "model": "logistic_regression",
+      "roc_auc": 0.8917748917748918
+    },
+    {
+      "key": "cleveland__050pct__seed_18__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 18,
+      "model": "random_forest",
+      "roc_auc": 0.8793290043290043
+    },
+    {
+      "key": "cleveland__050pct__seed_19__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 19,
+      "model": "logistic_regression",
+      "roc_auc": 0.8928571428571428
+    },
+    {
+      "key": "cleveland__050pct__seed_19__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 19,
+      "model": "random_forest",
+      "roc_auc": 0.8701298701298702
+    },
+    {
+      "key": "cleveland__050pct__seed_20__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 20,
+      "model": "logistic_regression",
+      "roc_auc": 0.9036796536796536
+    },
+    {
+      "key": "cleveland__050pct__seed_20__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 20,
+      "model": "random_forest",
+      "roc_auc": 0.8874458874458874
+    },
+    {
+      "key": "cleveland__050pct__seed_21__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 21,
+      "model": "logistic_regression",
+      "roc_auc": 0.9155844155844155
+    },
+    {
+      "key": "cleveland__050pct__seed_21__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 21,
+      "model": "random_forest",
+      "roc_auc": 0.8917748917748918
+    },
+    {
+      "key": "cleveland__050pct__seed_22__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 22,
+      "model": "logistic_regression",
+      "roc_auc": 0.8831168831168832
+    },
+    {
+      "key": "cleveland__050pct__seed_22__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 22,
+      "model": "random_forest",
+      "roc_auc": 0.8939393939393939
+    },
+    {
+      "key": "cleveland__050pct__seed_23__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 23,
+      "model": "logistic_regression",
+      "roc_auc": 0.9285714285714286
+    },
+    {
+      "key": "cleveland__050pct__seed_23__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 23,
+      "model": "random_forest",
+      "roc_auc": 0.9312770562770563
+    },
+    {
+      "key": "cleveland__050pct__seed_24__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 24,
+      "model": "logistic_regression",
+      "roc_auc": 0.935064935064935
+    },
+    {
+      "key": "cleveland__050pct__seed_24__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 24,
+      "model": "random_forest",
+      "roc_auc": 0.9696969696969697
+    },
+    {
+      "key": "cleveland__050pct__seed_25__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 25,
+      "model": "logistic_regression",
+      "roc_auc": 0.8733766233766235
+    },
+    {
+      "key": "cleveland__050pct__seed_25__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 25,
+      "model": "random_forest",
+      "roc_auc": 0.900974025974026
+    },
+    {
+      "key": "cleveland__050pct__seed_26__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 26,
+      "model": "logistic_regression",
+      "roc_auc": 0.8939393939393939
+    },
+    {
+      "key": "cleveland__050pct__seed_26__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 26,
+      "model": "random_forest",
+      "roc_auc": 0.8538961038961038
+    },
+    {
+      "key": "cleveland__050pct__seed_27__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 27,
+      "model": "logistic_regression",
+      "roc_auc": 0.8971861471861473
+    },
+    {
+      "key": "cleveland__050pct__seed_27__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 27,
+      "model": "random_forest",
+      "roc_auc": 0.9420995670995672
+    },
+    {
+      "key": "cleveland__050pct__seed_28__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 28,
+      "model": "logistic_regression",
+      "roc_auc": 0.9188311688311688
+    },
+    {
+      "key": "cleveland__050pct__seed_28__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 28,
+      "model": "random_forest",
+      "roc_auc": 0.933982683982684
+    },
+    {
+      "key": "cleveland__050pct__seed_29__logistic_regression",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 29,
+      "model": "logistic_regression",
+      "roc_auc": 0.9274891774891776
+    },
+    {
+      "key": "cleveland__050pct__seed_29__random_forest",
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "seed": 29,
+      "model": "random_forest",
+      "roc_auc": 0.8928571428571429
+    }
+  ]
+}

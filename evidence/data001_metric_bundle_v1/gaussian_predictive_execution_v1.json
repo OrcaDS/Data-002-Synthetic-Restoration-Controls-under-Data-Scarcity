@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "record_id": "gaussian_predictive_execution_v1",
+  "record_type": "retrospective_execution_freeze",
+  "created_at_utc": "2026-07-24T19:21:50.709655+00:00",
+  "historical_claim": "Retrospective provenance record, not preregistration. Executed source and notebook are historical sources of truth. Future configuration files are not historical inputs.",
+  "environment": {
+    "label": "versions_observed_during_retrospective_freeze",
+    "versions": {
+      "numpy": "2.5.1",
+      "pandas": "2.3.3",
+      "scipy": "1.18.0",
+      "scikit_learn": null,
+      "matplotlib": "3.11.1",
+      "sdv": "1.37.3",
+      "copulas": "0.14.1"
+    },
+    "execution_time_identity_proven": false
+  },
+  "split_and_scarcity": {
+    "repeat_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "test_size": 0.2,
+    "scarcity_levels": {
+      "diabetes": [
+        1.0,
+        0.5,
+        0.25,
+        0.1,
+        0.05,
+        0.01
+      ],
+      "cleveland": [
+        1.0,
+        0.5,
+        0.25,
+        0.1,
+        0.05
+      ]
+    },
+    "retained_subsets": "nested_scarcity_indices(y_train, levels, seed)"
+  },
+  "generator": {
+    "class": "sdv.single_table.GaussianCopulaSynthesizer",
+    "arguments": {
+      "enforce_min_max_values": true,
+      "enforce_rounding": true
+    },
+    "fit_population": "retained real training subset only",
+    "seed_behavior": "Private synthesizer._set_random_state(seed) called after fit and before conditional sampling.",
+    "conditional_allocation": "allocate_class_counts(retained_target, n_synthetic, minimum_per_class=0); one SDV Condition per nonzero target count",
+    "post_generation_behavior": "target cast to int8; declared binary feature values rounded and clipped to [0, 1]; augmented row count asserted",
+    "known_limitations": [
+      "Exact observed conditional target counts were not asserted.",
+      "No comprehensive feature-domain validation or rejection loop.",
+      "Generator exceptions stopped execution rather than recording a failed condition.",
+      "Private SDV random-state API is version-sensitive.",
+      "Original synthetic tables were not retained."
+    ]
+  },
+  "metadata": {
+    "construction_algorithm": "Metadata.detect_from_dataframe per retained condition; nominal, binary and target columns updated to categorical; numeric_features updated to numerical; metadata.validate called.",
+    "condition_level": true,
+    "full_dataset_examples_are_not_condition_metadata": {
+      "diabetes": {
+        "tables": {
+          "diabetes": {
+            "columns": {
+              "Diabetes_binary": {
+                "sdtype": "categorical"
+              },
+              "HighBP": {
+                "sdtype": "categorical"
+              },
+              "HighChol": {
+                "sdtype": "categorical"
+              },
+              "CholCheck": {
+                "sdtype": "categorical"
+              },
+              "BMI": {
+                "sdtype": "numerical"
+              },
+              "Smoker": {
+                "sdtype": "categorical"
+              },
+              "Stroke": {
+                "sdtype": "categorical"
+              },
+              "HeartDiseaseorAttack": {
+                "sdtype": "categorical"
+              },
+              "PhysActivity": {
+                "sdtype": "categorical"
+              },
+              "Fruits": {
+                "sdtype": "categorical"
+              },
+              "Veggies": {
+                "sdtype": "categorical"
+              },
+              "HvyAlcoholConsump": {
+                "sdtype": "categorical"
+              },
+              "AnyHealthcare": {
+                "sdtype": "categorical"
+              },
+              "NoDocbcCost": {
+                "sdtype": "categorical"
+              },
+              "GenHlth": {
+                "sdtype": "numerical"
+              },
+              "MentHlth": {
+                "sdtype": "numerical"
+              },
+              "PhysHlth": {
+                "sdtype": "numerical"
+              },
+              "DiffWalk": {
+                "sdtype": "categorical"
+              },
+              "Sex": {
+                "sdtype": "categorical"
+              },
+              "Age": {
+                "sdtype": "numerical"
+              },
+              "Education": {
+                "sdtype": "numerical"
+              },
+              "Income": {
+                "sdtype": "numerical"
+              }
+            }
+          }
+        },
+        "relationships": [],
+        "METADATA_SPEC_VERSION": "V1"
+      },
+      "cleveland": {
+        "tables": {
+          "cleveland": {
+            "columns": {
+              "age": {
+                "sdtype": "numerical"
+              },
+              "sex": {
+                "sdtype": "categorical"
+              },
+              "cp": {
+                "sdtype": "categorical"
+              },
+              "trestbps": {
+                "sdtype": "numerical"
+              },
+              "chol": {
+                "sdtype": "numerical"
+              },
+              "fbs": {
+                "sdtype": "categorical"
+              },
+              "restecg": {
+                "sdtype": "categorical"
+              },
+              "thalach": {
+                "sdtype": "numerical"
+              },
+              "exang": {
+                "sdtype": "categorical"
+              },
+              "oldpeak": {
+                "sdtype": "numerical"
+              },
+              "slope": {
+                "sdtype": "categorical"
+              },
+              "ca": {
+                "sdtype": "numerical"
+              },
+              "thal": {
+                "sdtype": "categorical"
+              },
+              "target": {
+                "sdtype": "categorical"
+              }
+            }
+          }
+        },
+        "relationships": [],
+        "METADATA_SPEC_VERSION": "V1"
+      }
+    }
+  },
+  "artifacts": {
+    "metric_rows": 540,
+    "prediction_archives": 540,
+    "prediction_archive_schema": {
+      "keys": [
+        "test_index",
+        "y_true",
+        "probability"
+      ],
+      "probability_dtype": "float32",
+      "filename": "results/gaussian_copula_predictions/{dataset}/seed_{seed:02d}/{model}_{scarcity_percent:03d}pct.npz"
+    },
+    "archive_inventory": "results/provenance/forensic_file_inventory_v1.csv",
+    "archive_inventory_root_sha256": "fa0ae66476dcd712e92b86bf95f6821e1c9b44fe059a25aa6ec1b677867c46ca",
+    "readable_manifest_excludes_individual_archive_hashes": true
+  },
+  "historical_file_hashes": {
+    "notebooks/03_gaussian_copula.ipynb": "3d25801cc7e2196342a5ace7793461482d4a0771d73cb0aecaa3ed963b624c8b",
+    "src/experiments/augmentation.py": "e7dbced51d061a69d7064f55909191ad2d9330bf7fde68b321bf4e02c14d13e3",
+    "src/generators/gaussian_copula.py": "229842e223e892eb8869f9169efaa25d628e8f0ca40f56294dd49bd409f13f0b",
+    "src/data/loader.py": "82755a8f84f51ff80cebba5f531ca3f2dc171c88f8e1944bc007116d3a72c46a",
+    "src/data/scarcity.py": "41a8b5f986d2bb89b4c9c8d3badfaa518ff810a15ac1264c541e7ad849e4c1d7",
+    "src/utils/config.py": "a07bb4ae5e130f0a36cc8d24a2fa19864fbfec5c3800cccbe2fa0a9803341529",
+    "docs/methodology.md": "f04c7595dfc01593c4dc20f4f60203ca04a06a2a4655e53dc36f78cdc5d1d64c",
+    "results/gaussian_copula_per_seed.csv": "e218df863d90b6f6547ac2f0d4e8263c812288dc1ed8ea2b059ae8210d84cd8e",
+    "results/gaussian_copula_summary.csv": "b92c2edbc32d17629e29d7744e4264537ee5c5c0754eadf986a8366933f98049",
+    "results/gaussian_copula_paired_summary.csv": "d34c1611450b758571dcc1c7d86a7887241a0c541360df8431b94659dbf0e203"
+  },
+  "dataset_hashes": {
+    "diabetes": "19f367e3e3350768f0c144c5d73ee5b355f67a57eaaa86ca7bd8aec594d8b1d0",
+    "cleveland": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+  },
+  "conditional_allocation_example_function": {
+    "function": "src.data.scarcity.allocate_class_counts",
+    "minimum_per_class_for_synthetic": 0,
+    "example": {
+      "0": 5,
+      "1": 5
+    }
+  },
+  "related_records": {
+    "forensic_snapshot": "results/provenance/forensic_snapshot_v1.json",
+    "reconciliation": "results/provenance/gaussian_reconciliation_v1.json",
+    "diagnostic_protocol": "gaussian_diagnostic_evaluation_v1",
+    "future_hardened_generator": "gaussian_generator_hardened_v2"
+  }
+}

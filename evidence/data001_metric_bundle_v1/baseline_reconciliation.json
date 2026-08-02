@@ -1,0 +1,10 @@
+{
+  "validated_archives": 660,
+  "metric_rows": 660,
+  "summary_rows": 132,
+  "changed_metric_cells": 0,
+  "maximum_absolute_metric_difference": 5.551115123125783e-16,
+  "model_fits_performed": 0,
+  "manifest_status": "validated",
+  "figure": "results\\figures\\baseline_roc_auc.png"
+}

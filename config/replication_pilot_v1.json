@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "record": "data002_replication_pilot_contract_v1",
+  "status": "design_frozen_pending_review",
+  "authorization": null,
+  "scope": "fixed_12_condition_metric_blind_replication_pilot",
+  "study_contract": "config/replication_study_v1.json",
+  "matrix": {
+    "diabetes": {
+      "retained_fractions": [0.01, 0.5]
+    },
+    "cleveland": {
+      "retained_fractions": [0.05]
+    },
+    "seeds": [0, 29],
+    "models": ["logistic_regression", "random_forest"],
+    "condition_count": 12
+  },
+  "condition_manifest": "results/provenance/replication_pilot_keys_v1.json",
+  "inspection_boundary": {
+    "allowed": [
+      "runtime",
+      "memory",
+      "disk",
+      "warnings",
+      "row_counts",
+      "target_counts",
+      "deterministic_reconstruction_hashes",
+      "prediction_npz_schema_range_finiteness_booleans",
+      "prediction_artifact_hashes",
+      "expected_key_identity",
+      "atomic_persistence",
+      "resume_behavior",
+      "failure_accounting"
+    ],
+    "forbidden": [
+      "treatment_favorability",
+      "aggregate_predictive_metrics",
+      "primary_contrast",
+      "compute_predictive_metrics",
+      "store_predictive_metrics",
+      "print_predictive_metrics",
+      "summarize_predictive_metrics",
+      "join_predictive_metrics",
+      "return_probability_values",
+      "load_or_join_upstream_metric_tables"
+    ],
+    "upstream_metric_tables_access": "forbidden"
+  },
+  "sealed_outcome_evidence": {
+    "prediction_artifacts_are_outcome_evidence": true,
+    "retention": "retain sealed for possible final-grid reuse",
+    "operational_review_interpretation": "forbidden"
+  },
+  "artifact_reuse": {
+    "eligible_for_final_grid": true,
+    "required_byte_identical_bindings": [
+      "protocol",
+      "implementation",
+      "environment",
+      "condition_contracts"
+    ],
+    "binding_sources": {
+      "protocol": [
+        "config/replication_study_v1.json",
+        "docs/protocol.md",
+        "SCOPE.md"
+      ],
+      "implementation": "results/provenance/replication_design_implementation_manifest_v1.json",
+      "environment": "results/provenance/environment_inventory_python313_v1.json",
+      "condition_contracts": "results/provenance/replication_full_grid_keys_v1.json"
+    },
+    "otherwise": "pilot artifacts are ineligible and must not be silently imported"
+  },
+  "execution_authorization_required": true
+}

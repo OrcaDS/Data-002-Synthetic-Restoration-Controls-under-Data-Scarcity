@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "record_type": "gaussian_predictive_execution_v1_reconciliation",
+  "mode": "read_only",
+  "metric_rows": 540,
+  "unique_condition_keys": 540,
+  "expected_condition_keys": 540,
+  "duplicate_condition_keys": 0,
+  "missing_condition_keys": 0,
+  "unexpected_condition_keys": 0,
+  "validated_archives": 540,
+  "missing_archives": [],
+  "extra_archives": [],
+  "changed_metric_cells_above_tolerance": 0,
+  "metric_tolerance": 1e-12,
+  "maximum_absolute_metric_difference": 5.551115123125783e-16,
+  "invalid_size_rows": 0,
+  "model_fits_performed": 0,
+  "historical_artifacts_modified": false,
+  "passed": true,
+  "observed_at_utc": "2026-07-24T19:16:11.118155+00:00",
+  "input_hashes": {
+    "gaussian_copula_per_seed.csv": "e218df863d90b6f6547ac2f0d4e8263c812288dc1ed8ea2b059ae8210d84cd8e",
+    "forensic_file_inventory_v1.csv": "74349ad12593c4bb2a75cea445edf513ee458e5697775fa22ff371473e9ce7cf"
+  }
+}

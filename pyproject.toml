@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-002-synthetic-restoration-controls"
+version = "0.1.0"
+description = "Matched restoration controls for synthetic augmentation under data scarcity"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "matplotlib==3.11.1",
+    "numpy==2.5.1",
+    "pandas==2.3.3",
+    "psutil==7.2.2",
+    "scikit-learn==1.9.0",
+    "scipy==1.18.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+
+[tool.setuptools.packages.find]
+where = ["src"]

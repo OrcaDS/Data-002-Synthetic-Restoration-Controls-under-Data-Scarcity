@@ -1,0 +1,174 @@
+{
+  "authorization": null,
+  "base_commit": "8b1d4082f32d1ce1639e4d8e4b3ee7fa870062a6",
+  "file_count": 6,
+  "files": {
+    "baseline_per_seed.csv": {
+      "bytes": 118969,
+      "exact_key_coverage": {
+        "condition_key_count": 660,
+        "condition_keys_sha256": "c90b12fc2469e5e4d58c229960f0d305dd7f97353a0d3b6d34fedf3a4077cce7",
+        "scope": "baseline_660"
+      },
+      "expected_schema": {
+        "columns": [
+          "dataset",
+          "model",
+          "seed",
+          "scarcity_fraction",
+          "training_pool_size",
+          "retained_size",
+          "retained_negative",
+          "retained_positive",
+          "test_size",
+          "fit_seconds",
+          "roc_auc",
+          "precision",
+          "recall",
+          "f1",
+          "accuracy",
+          "average_precision"
+        ],
+        "format": "csv"
+      },
+      "sha256": "2621bb1ec1558f250e804855dca6c1b947c8a0f3e4dc84cace67a0337821d2bc",
+      "upstream_git_blob": "af745100804951fcc4eaa5cf022ef4fb676c1204",
+      "upstream_git_path": "results/baseline_per_seed.csv"
+    },
+    "baseline_protocol_v1.json": {
+      "bytes": 1292,
+      "exact_key_coverage": null,
+      "expected_schema": {
+        "format": "json",
+        "top_level_keys": [
+          "dataset_sha256",
+          "models",
+          "package_versions",
+          "protocol",
+          "repeat_seeds",
+          "scarcity_levels",
+          "test_size"
+        ]
+      },
+      "sha256": "675d64e2857994228252af80b09813f70760c539f43f953d2b1814d57ba64062",
+      "upstream_git_blob": "7f3656b8b485094a79c73f292fbc9a4565b27903",
+      "upstream_git_path": "results/baseline_protocol_v1.json"
+    },
+    "baseline_reconciliation.json": {
+      "bytes": 294,
+      "exact_key_coverage": null,
+      "expected_schema": {
+        "format": "json",
+        "top_level_keys": [
+          "changed_metric_cells",
+          "figure",
+          "manifest_status",
+          "maximum_absolute_metric_difference",
+          "metric_rows",
+          "model_fits_performed",
+          "summary_rows",
+          "validated_archives"
+        ]
+      },
+      "sha256": "5ddd286dce7ff89422cd4728b5aac2530f7bbd7b0c986c1075a2f48aeefad67d",
+      "upstream_git_blob": "f39b45b87529bff046f7205774a515a271f2b1d7",
+      "upstream_git_path": "results/baseline_reconciliation.json"
+    },
+    "gaussian_copula_per_seed.csv": {
+      "bytes": 101867,
+      "exact_key_coverage": {
+        "condition_key_count": 540,
+        "condition_keys_sha256": "494f771a76c24df2d9a216e67c4f8ba389bcff811fc0b9b0342ec4729a51c9a1",
+        "scope": "gaussian_540"
+      },
+      "expected_schema": {
+        "columns": [
+          "dataset",
+          "model",
+          "seed",
+          "scarcity_fraction",
+          "training_pool_size",
+          "retained_size",
+          "synthetic_size",
+          "generator_seconds",
+          "fit_seconds",
+          "roc_auc",
+          "precision",
+          "recall",
+          "f1",
+          "accuracy",
+          "average_precision"
+        ],
+        "format": "csv"
+      },
+      "sha256": "e218df863d90b6f6547ac2f0d4e8263c812288dc1ed8ea2b059ae8210d84cd8e",
+      "upstream_git_blob": "3b086ef637d0cd72e90a056e0c0126a68c472b64",
+      "upstream_git_path": "results/gaussian_copula_per_seed.csv"
+    },
+    "gaussian_predictive_execution_v1.json": {
+      "bytes": 8822,
+      "exact_key_coverage": null,
+      "expected_schema": {
+        "format": "json",
+        "top_level_keys": [
+          "artifacts",
+          "conditional_allocation_example_function",
+          "created_at_utc",
+          "dataset_hashes",
+          "environment",
+          "generator",
+          "historical_claim",
+          "historical_file_hashes",
+          "metadata",
+          "record_id",
+          "record_type",
+          "related_records",
+          "schema_version",
+          "split_and_scarcity"
+        ]
+      },
+      "sha256": "2f728a25266e624fc575d7c2bf93a29e6811601c06ef8879537fb6bc20e72892",
+      "upstream_git_blob": "270625ca6bb3561bc587114f299178a3b4454c8a",
+      "upstream_git_path": "results/provenance/gaussian_predictive_execution_v1.json"
+    },
+    "gaussian_reconciliation_v1.json": {
+      "bytes": 949,
+      "exact_key_coverage": null,
+      "expected_schema": {
+        "format": "json",
+        "top_level_keys": [
+          "changed_metric_cells_above_tolerance",
+          "duplicate_condition_keys",
+          "expected_condition_keys",
+          "extra_archives",
+          "historical_artifacts_modified",
+          "input_hashes",
+          "invalid_size_rows",
+          "maximum_absolute_metric_difference",
+          "metric_rows",
+          "metric_tolerance",
+          "missing_archives",
+          "missing_condition_keys",
+          "mode",
+          "model_fits_performed",
+          "observed_at_utc",
+          "passed",
+          "record_type",
+          "schema_version",
+          "unexpected_condition_keys",
+          "unique_condition_keys",
+          "validated_archives"
+        ]
+      },
+      "sha256": "3cbb629c243582888b7f3300486757c1d8b5e7d1fdc57f04278aea6f2236c0fc",
+      "upstream_git_blob": "20b36ff8de01288d3474adf156ea2c7b61f3e78d",
+      "upstream_git_path": "results/provenance/gaussian_reconciliation_v1.json"
+    }
+  },
+  "record": "data002_data001_metric_bundle_manifest_v1",
+  "schema_version": 1,
+  "source_commit": "ecc2b222eca86c47acdf12efd3b8f779b6a29ef9",
+  "source_release_tag": "gaussian-v1.0",
+  "status": "design_frozen_pending_review",
+  "total_bytes": 232193
+}

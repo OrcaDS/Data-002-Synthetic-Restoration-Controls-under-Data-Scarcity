@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Raw inputs are supplied locally and must remain hash-verified, not committed.
+data/raw/
+
+# Large or transient execution artifacts are reconstructable.
+results/checkpoints/
+results/predictions/
+results/tmp/
+*.tmp

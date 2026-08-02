@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "record_identity": "data002_replication_analysis_review_v1",
+  "status": "scientific_findings_accepted",
+  "reviewer_role": "senior_data_scientist",
+  "reviewed_at": "2026-07-31T22:44:58.5033797+08:00",
+  "bindings": {
+    "authorization_commit": "c2a401381d7c07c02c3bcba1952669849f13d3e0",
+    "analysis_evidence_commit": "198f2c5a7730f724c4feca0555556fa9b9215fa5",
+    "analysis_launch": {
+      "path": "config/replication_analysis_launch_v1.json",
+      "sha256": "d069d5bb36bad0a0bba908829b9ab7a866b42fc33cc82907b5602ba3bf7f981f"
+    },
+    "analysis_implementation_manifest": {
+      "path": "results/provenance/replication_analysis_implementation_manifest_v1.json",
+      "sha256": "31a890e74c5b7d34354aaf5c08c99ae189365d2573dedf5bb3d37071df04707c"
+    },
+    "analysis_outputs": {
+      "results/analysis/replication_v1/analysis_report.json": {
+        "sha256": "26827e474301964b70fabedd3c70d5adfb0c3a9168f7a72f53a7697da5d07bba"
+      },
+      "results/analysis/replication_v1/replication_seed_metrics.json": {
+        "sha256": "88f7bae8a4efcd1353a3ad86a68c675b6d82fbb47296f9b08cb64faf2971b936"
+      },
+      "results/analysis/replication_v1/stratum_summaries.json": {
+        "sha256": "07077b38096b82506b06495321674fb1b9170702b3c4d419881b4fb2f15ea37d"
+      }
+    }
+  },
+  "accepted_findings": {
+    "gaussian_minus_replication": {
+      "strata": 18,
+      "negative_estimates": 18,
+      "intervals_entirely_below_zero": 18,
+      "harmful": 10,
+      "no_clear_practically_meaningful_difference": 8,
+      "helpful": 0
+    },
+    "replication_minus_real_only": {
+      "harmful": 7,
+      "no_clear_practically_meaningful_difference": 11,
+      "helpful": 0
+    },
+    "gaussian_minus_real_only": {
+      "harmful": 12,
+      "no_clear_practically_meaningful_difference": 6,
+      "helpful": 0
+    }
+  },
+  "accepted_scoped_conclusion": "Under the frozen two-dataset, two-model scarcity protocol, Gaussian Copula augmentation added no predictive value beyond deterministic class-preserving replication. It was practically harmful in 10 of 18 strata and never helpful. Replication itself was harmful in 7 strata, indicating that restoration without new information explains part, but not all, of the degradation.",
+  "limitations": [
+    "Two binary-classification datasets",
+    "Two model families",
+    "ROC-AUC only",
+    "Frozen scarcity and restoration protocol",
+    "Replication is a matched control, not a statistically neutral intervention",
+    "No causal or universal synthetic-data claim"
+  ],
+  "methodological_confirmations": {
+    "p_values_performed": false,
+    "multiplicity_adjustment_performed": false,
+    "post_hoc_contrasts_performed": false,
+    "exclusions_applied": false,
+    "alternative_thresholds_applied": false,
+    "analysis_rerun": false,
+    "raw_prediction_arrays_persisted": false
+  }
+}

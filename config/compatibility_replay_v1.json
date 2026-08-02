@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "record": "data002_compatibility_replay_v1",
+  "status": "implementation_draft",
+  "execution_authorization": "none",
+  "source_release_tag": "gaussian-v1.0",
+  "source_commit": "ecc2b222eca86c47acdf12efd3b8f779b6a29ef9",
+  "source_git_blobs": {
+    "src/data/loader.py": "1da3b0a857d906c8b8973fb3353e2a890ce7bb1e",
+    "src/data/preprocessing.py": "3613f5e57373100f2287e8cd7cacd7ed6600e3b4",
+    "src/data/scarcity.py": "7554d7aa2be9ad6892362f5c926d2b7244a722a9",
+    "src/experiments/augmentation.py": "f2f1ce93560b996373953ee2104076d6a9c00801",
+    "src/experiments/baseline.py": "b38ced13d65eceee20050d0fa4b7cac3dbd8414d",
+    "src/models/logistic_regression.py": "d71dbbfe040f9037e4febb20d5a33945061cf0b8",
+    "src/models/random_forest.py": "0adf7fda7da3bfdc35496f11eb2224facd26d9d2",
+    "src/evaluation/predictive.py": "f3cb87e0d18eb60eb994f6f458c11083a25401b3",
+    "src/utils/config.py": "8234b545a80746d7be88c4db361acb1df85fd2a2",
+    "results/baseline_protocol_v1.json": "7f3656b8b485094a79c73f292fbc9a4565b27903"
+  },
+  "dataset_sha256": {
+    "diabetes": "19f367e3e3350768f0c144c5d73ee5b355f67a57eaaa86ca7bd8aec594d8b1d0",
+    "cleveland": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+  },
+  "raw_input_strategy": {
+    "mode": "explicit_cli_paths",
+    "commit_raw_data": false,
+    "hash_before_parse": true
+  },
+  "environment": {
+    "python": "3.13.x",
+    "numpy": "2.5.1",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.9.0"
+  },
+  "matrix": {
+    "diabetes": {
+      "scarcity_fractions": [0.01, 0.5],
+      "seeds": [0, 29],
+      "models": ["logistic_regression", "random_forest"]
+    },
+    "cleveland": {
+      "scarcity_fractions": [0.05, 0.5],
+      "seeds": [0, 29],
+      "models": ["logistic_regression", "random_forest"]
+    }
+  },
+  "acceptance": {
+    "all_conditions_must_pass": true,
+    "ordered_test_indices": "exact",
+    "test_labels": "exact",
+    "probability_shape": "exact",
+    "probability_dtype": "float32",
+    "probability_rtol": 0.0,
+    "probability_atol": 1e-6,
+    "threshold": 0.5,
+    "thresholded_predictions": "exact",
+    "roc_auc_absolute_tolerance": 1e-12,
+    "average_precision_absolute_tolerance": 1e-12,
+    "precision_recall_f1_accuracy": "exact"
+  }
+}

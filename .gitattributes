@@ -1,0 +1,16 @@
+* text=auto
+
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.npz binary
+
+# Accepted compatibility evidence must remain byte-for-byte stable.
+results/compatibility/replay_v1/** -text diff
+results/compatibility/replay_v1/**/*.npz binary
+
+# Portable frozen Data 001 metric evidence remains byte-stable and diffable.
+# Its upstream CRLF is accepted as end-of-line, not trailing whitespace.
+evidence/data001_metric_bundle_v1/** -text diff whitespace=cr-at-eol

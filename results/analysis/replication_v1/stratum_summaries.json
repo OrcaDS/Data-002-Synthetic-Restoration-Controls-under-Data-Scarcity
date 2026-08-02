@@ -1,0 +1,947 @@
+{
+  "schema_version": 1,
+  "record": "data002_replication_stratum_summaries_v1",
+  "stratum_count": 18,
+  "paired_seeds_per_stratum": 30,
+  "primary_contrast": "gaussian_minus_replication",
+  "secondary_contrasts": [
+    "replication_minus_real_only",
+    "gaussian_minus_real_only"
+  ],
+  "bootstrap": {
+    "method": "paired_seed_level_bootstrap",
+    "resamples": 10000,
+    "bit_generator": "numpy.random.PCG64",
+    "quantiles": [
+      0.025,
+      0.975
+    ],
+    "quantile_method": "linear"
+  },
+  "practical_threshold": 0.01,
+  "interpretation_labels": [
+    "helpful",
+    "harmful",
+    "no_clear_practically_meaningful_difference"
+  ],
+  "rows": [
+    {
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "model": "logistic_regression",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.009940407673173769,
+          "ci_lower": -0.01285268634000325,
+          "ci_upper": -0.007053978524852477,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 9440221718500065875,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": 0.0001326662939486985,
+          "ci_lower": -0.00043960616391317285,
+          "ci_upper": 0.0006269428994249747,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 12756340016704738547,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.00980774137922507,
+          "ci_lower": -0.0125785492508798,
+          "ci_upper": -0.00708605891992623,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 6103384390061333778,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "diabetes",
+      "retained_fraction": 0.01,
+      "retained_fraction_token": "001pct",
+      "model": "random_forest",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.03638723539573705,
+          "ci_lower": -0.047088340725951514,
+          "ci_upper": -0.02584210303337503,
+          "interpretation": "harmful",
+          "bootstrap_seed": 1344580021845723714,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.010190595064228902,
+          "ci_lower": -0.010687221169446969,
+          "ci_upper": -0.009698912278142773,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 6525477769283424430,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.04657783045996597,
+          "ci_lower": -0.05708104510214157,
+          "ci_upper": -0.03602233004025631,
+          "interpretation": "harmful",
+          "bootstrap_seed": 8504851312538656453,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "model": "logistic_regression",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.01200446880791198,
+          "ci_lower": -0.014199179668457724,
+          "ci_upper": -0.010100424165560631,
+          "interpretation": "harmful",
+          "bootstrap_seed": 471151633614320889,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -2.4082549180493017e-05,
+          "ci_lower": -0.00011229803892203636,
+          "ci_upper": 5.4542304039444365e-05,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 13406143710764160258,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.012028551357092472,
+          "ci_lower": -0.014201982110028388,
+          "ci_upper": -0.010110675333475396,
+          "interpretation": "harmful",
+          "bootstrap_seed": 5814424113212842842,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "diabetes",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "model": "random_forest",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.029478195322915447,
+          "ci_lower": -0.038446071276125864,
+          "ci_upper": -0.021151725838166765,
+          "interpretation": "harmful",
+          "bootstrap_seed": 11802596587358268208,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.010323871748976528,
+          "ci_lower": -0.010556114935573395,
+          "ci_upper": -0.010078349945190402,
+          "interpretation": "harmful",
+          "bootstrap_seed": 9229796595893494409,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.039802067071891975,
+          "ci_lower": -0.048531385252551476,
+          "ci_upper": -0.03161941712075871,
+          "interpretation": "harmful",
+          "bootstrap_seed": 116878882753325880,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "model": "logistic_regression",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.008953895737556405,
+          "ci_lower": -0.010158283465754741,
+          "ci_upper": -0.007841975220619316,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 16688095221646095823,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -4.05329186706697e-05,
+          "ci_lower": -8.080448965240156e-05,
+          "ci_upper": -3.5235274564669386e-06,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 5321429236275034447,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.008994428656227075,
+          "ci_lower": -0.010187383687819532,
+          "ci_upper": -0.007857680380153952,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 16213421825862817336,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "diabetes",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "model": "random_forest",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.030668393939265206,
+          "ci_lower": -0.035601161144824256,
+          "ci_upper": -0.025430152997604188,
+          "interpretation": "harmful",
+          "bootstrap_seed": 14523994022825333975,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.010570483831944174,
+          "ci_lower": -0.010795485623944605,
+          "ci_upper": -0.010357567579340329,
+          "interpretation": "harmful",
+          "bootstrap_seed": 17908438512369341261,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.04123887777120938,
+          "ci_lower": -0.04643812780441695,
+          "ci_upper": -0.03594480336944224,
+          "interpretation": "harmful",
+          "bootstrap_seed": 1381782531869439653,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "model": "logistic_regression",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.006346957237610132,
+          "ci_lower": -0.007724036749569088,
+          "ci_upper": -0.005147106263997358,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 4956077462918868852,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -2.1993884194126957e-05,
+          "ci_lower": -3.37512568718761e-05,
+          "ci_upper": -1.0918922220559314e-05,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 7845629181424710695,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.00636895112180426,
+          "ci_lower": -0.007747716614949551,
+          "ci_upper": -0.005174042176890684,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 2368633441930819745,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "diabetes",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "model": "random_forest",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.016031626931942624,
+          "ci_lower": -0.01950182552149036,
+          "ci_upper": -0.012823988491278955,
+          "interpretation": "harmful",
+          "bootstrap_seed": 14868634405039628407,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.010502008890877242,
+          "ci_lower": -0.010672706170733662,
+          "ci_upper": -0.010336425982658097,
+          "interpretation": "harmful",
+          "bootstrap_seed": 11608884131440395572,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.026533635822819868,
+          "ci_lower": -0.029965323000847335,
+          "ci_upper": -0.02328108479611715,
+          "interpretation": "harmful",
+          "bootstrap_seed": 807942666153075653,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "model": "logistic_regression",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.0022149295468797884,
+          "ci_lower": -0.0025572201527265977,
+          "ci_upper": -0.0019119043161232162,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 4348872491193038509,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -9.456386991009886e-06,
+          "ci_lower": -1.3037834082087752e-05,
+          "ci_upper": -5.83973106837684e-06,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 4452147168017686984,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.002224385933870798,
+          "ci_lower": -0.0025543122817358694,
+          "ci_upper": -0.0019256459610325783,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 10738248922112023223,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "diabetes",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "model": "random_forest",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.011179423083323974,
+          "ci_lower": -0.012891660817038728,
+          "ci_upper": -0.009392994010970872,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 11921934564668489709,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.0072784929666387535,
+          "ci_lower": -0.007450010841469246,
+          "ci_upper": -0.007105472289953673,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 11990995952193735155,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.018457916049962726,
+          "ci_lower": -0.02017067675037018,
+          "ci_upper": -0.016690179499320286,
+          "interpretation": "harmful",
+          "bootstrap_seed": 10102337666208217213,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "model": "logistic_regression",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.07095959595959585,
+          "ci_lower": -0.11572871572871558,
+          "ci_upper": -0.02492739898989888,
+          "interpretation": "harmful",
+          "bootstrap_seed": 6346566735842939113,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.03320707070707073,
+          "ci_lower": -0.05212842712842703,
+          "ci_upper": -0.01663059163059163,
+          "interpretation": "harmful",
+          "bootstrap_seed": 10390680557167473429,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.10416666666666656,
+          "ci_lower": -0.14428481240981225,
+          "ci_upper": -0.06594471500721498,
+          "interpretation": "harmful",
+          "bootstrap_seed": 9499381279885115125,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "cleveland",
+      "retained_fraction": 0.05,
+      "retained_fraction_token": "005pct",
+      "model": "random_forest",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.08932178932178932,
+          "ci_lower": -0.13842126623376624,
+          "ci_upper": -0.037210046897546985,
+          "interpretation": "harmful",
+          "bootstrap_seed": 278912787455385132,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.022113997113997117,
+          "ci_lower": -0.035047348484848556,
+          "ci_upper": -0.0125180375180375,
+          "interpretation": "harmful",
+          "bootstrap_seed": 12174070249079692945,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.11143578643578643,
+          "ci_lower": -0.15786435786435782,
+          "ci_upper": -0.06372610028860026,
+          "interpretation": "harmful",
+          "bootstrap_seed": 17462144606998697605,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "model": "logistic_regression",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.057539682539682495,
+          "ci_lower": -0.091090367965368,
+          "ci_upper": -0.030590728715728745,
+          "interpretation": "harmful",
+          "bootstrap_seed": 3642214360046920011,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.036255411255411166,
+          "ci_lower": -0.05147997835497833,
+          "ci_upper": -0.022799422799422743,
+          "interpretation": "harmful",
+          "bootstrap_seed": 798338038758021084,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.09379509379509363,
+          "ci_lower": -0.12673250360750346,
+          "ci_upper": -0.0655844155844154,
+          "interpretation": "harmful",
+          "bootstrap_seed": 10644077627600819959,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "cleveland",
+      "retained_fraction": 0.1,
+      "retained_fraction_token": "010pct",
+      "model": "random_forest",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.07133838383838377,
+          "ci_lower": -0.09933396464646461,
+          "ci_upper": -0.046212121212121135,
+          "interpretation": "harmful",
+          "bootstrap_seed": 4111443784685628814,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.013492063492063484,
+          "ci_lower": -0.018164231601731605,
+          "ci_upper": -0.008855519480519524,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 16055456439375450807,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.08483044733044727,
+          "ci_lower": -0.11168876262626252,
+          "ci_upper": -0.06080447330447328,
+          "interpretation": "harmful",
+          "bootstrap_seed": 5391823730436003675,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "model": "logistic_regression",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.02240259740259743,
+          "ci_lower": -0.037409812409812455,
+          "ci_upper": -0.00789953102453104,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 6704863348021016118,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.013492063492063484,
+          "ci_lower": -0.017243867243867287,
+          "ci_upper": -0.0101010101010102,
+          "interpretation": "harmful",
+          "bootstrap_seed": 635998660980069815,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.03589466089466093,
+          "ci_lower": -0.04945977633477639,
+          "ci_upper": -0.02333964646464648,
+          "interpretation": "harmful",
+          "bootstrap_seed": 12345973623508598826,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "cleveland",
+      "retained_fraction": 0.25,
+      "retained_fraction_token": "025pct",
+      "model": "random_forest",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.030735930735930696,
+          "ci_lower": -0.04529220779220766,
+          "ci_upper": -0.01709911616161609,
+          "interpretation": "harmful",
+          "bootstrap_seed": 5811209499198542095,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.007738095238095237,
+          "ci_lower": -0.011760461760461794,
+          "ci_upper": -0.0036976911976913177,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 14371805567723641502,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.038474025974025924,
+          "ci_lower": -0.052255591630591666,
+          "ci_upper": -0.025559163059163132,
+          "interpretation": "harmful",
+          "bootstrap_seed": 13796321149267170050,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "model": "logistic_regression",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.01623376623376623,
+          "ci_lower": -0.0263708513708513,
+          "ci_upper": -0.007287157287157334,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 18367847547883142015,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.0014790764790765427,
+          "ci_lower": -0.0027777777777778273,
+          "ci_upper": -0.00018037518037525475,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 13074782109051069087,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.017712842712842774,
+          "ci_lower": -0.0277417027417028,
+          "ci_upper": -0.008658008658008632,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 5524918469875593269,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    },
+    {
+      "dataset": "cleveland",
+      "retained_fraction": 0.5,
+      "retained_fraction_token": "050pct",
+      "model": "random_forest",
+      "paired_seed_count": 30,
+      "contrasts": {
+        "gaussian_minus_replication": {
+          "estimate": -0.01625180375180387,
+          "ci_lower": -0.02846410533910552,
+          "ci_upper": -0.004743867243867456,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 14161410790457896297,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "replication_minus_real_only": {
+          "estimate": -0.0030483405483405705,
+          "ci_lower": -0.005555555555555614,
+          "ci_upper": -0.0005591630591631397,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 4353555726306279916,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        },
+        "gaussian_minus_real_only": {
+          "estimate": -0.019300144300144442,
+          "ci_lower": -0.03093479437229435,
+          "ci_upper": -0.008333333333333437,
+          "interpretation": "no_clear_practically_meaningful_difference",
+          "bootstrap_seed": 13910272440270934144,
+          "bootstrap_resamples": 10000,
+          "method": "paired_seed_level_bootstrap",
+          "quantiles": [
+            0.025,
+            0.975
+          ],
+          "quantile_method": "linear"
+        }
+      }
+    }
+  ]
+}
