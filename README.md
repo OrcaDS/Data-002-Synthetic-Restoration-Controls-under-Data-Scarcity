@@ -1,13 +1,35 @@
 # Data 002 — Synthetic Restoration Controls
 
+**Does synthetic data add value beyond simply duplicating scarce real rows?**
+
 **Status:** Analysis complete; scientific findings accepted
 
-Under the frozen two-dataset, two-model scarcity protocol, Gaussian Copula
-augmentation added no predictive value beyond deterministic class-preserving
-replication. It was practically harmful in 10 of 18 strata and never helpful.
+> Data 002 is a 540-condition matched control study testing whether Gaussian
+> Copula augmentation outperforms deterministic row replication when training
+> size, class balance, data splits, models, and test sets are held constant.
+>
+> Across all 18 dataset × scarcity × model settings, the estimated
+> Gaussian-versus-replication difference was negative. Gaussian augmentation
+> met the prespecified practical-harm threshold in 10 settings, showed no clear
+> practically meaningful difference in 8, and was never helpful. Replication
+> itself was harmful in 7 settings—showing that restoring table size explains
+> part, but not all, of the degradation.
 
-Replication itself was harmful in 7 strata, indicating that restoration
-without new information explains part, but not all, of the degradation.
+## Explore the replication-control results
+
+- [Executed results notebook](notebooks/01_replication_control_results.ipynb)
+  — accessible forest plot, interpretation counts, and the complete
+  18-stratum table
+- [Stratum-level results](results/analysis/replication_v1/stratum_summaries.json)
+  — accepted estimates, intervals, and interpretations
+- [Analysis report](results/analysis/replication_v1/analysis_report.json)
+  — reconciliation and output accounting
+- [Scientific review record](results/provenance/replication_analysis_review_v1.json)
+  — accepted conclusion and limitations
+
+The notebook verifies the accepted stratum-summary SHA-256 before loading and
+loads no prediction arrays, seed-level metric document, or upstream metric
+table.
 
 ## Public result
 
@@ -34,9 +56,8 @@ The secondary frozen comparisons were:
 | Replication minus scarce real-only | 7 | 11 | 0 |
 | Gaussian minus scarce real-only | 12 | 6 | 0 |
 
-See the executed [results notebook](notebooks/01_replication_control_results.ipynb)
-for the accessible forest plot, all interpretation counts, and the exact
-18-stratum primary-result table.
+The executed results notebook above provides the accessible forest plot, all
+interpretation counts, and the complete 18-stratum primary-result table.
 
 ## Study design
 
@@ -53,14 +74,14 @@ paired seeds per stratum. Intervals used 10,000 paired seed-level bootstrap
 resamples with the frozen deterministic procedure. No p-values or multiplicity
 adjustment were used.
 
-## Accepted evidence
+## What this project demonstrates
 
-- [Analysis report](results/analysis/replication_v1/analysis_report.json)
-- [Scientific review record](results/provenance/replication_analysis_review_v1.json)
-
-The notebook verifies the accepted stratum-summary SHA-256 before loading and
-loads no prediction arrays, seed-level metric document, or upstream metric
-table.
+- Matched-control experimental design that isolates the restoration mechanism
+- Paired uncertainty estimation across repeated train/test splits
+- Deterministic, auditable reconstruction of the replication control
+- Prospective practical thresholds and explicit alternative-explanation
+  testing
+- Reproducible evidence with a 98-test portable validation boundary
 
 ## Public release boundary
 
