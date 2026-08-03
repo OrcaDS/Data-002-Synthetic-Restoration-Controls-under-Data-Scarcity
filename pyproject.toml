@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "data-002-synthetic-restoration-controls"
-version = "1.1.0"
+version = "1.1.1"
 description = "Matched restoration controls for synthetic augmentation under data scarcity"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
