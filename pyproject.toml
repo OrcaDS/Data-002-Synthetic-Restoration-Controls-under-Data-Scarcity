@@ -1,13 +1,25 @@
 [build-system]
-requires = ["setuptools>=75"]
+requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "data-002-synthetic-restoration-controls"
-version = "0.1.0"
+version = "1.1.0"
 description = "Matched restoration controls for synthetic augmentation under data scarcity"
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
+authors = [
+    { name = "OrcaDS", email = "kurt1984217@gmail.com" },
+]
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = [
+    "synthetic-data",
+    "data-scarcity",
+    "matched-control",
+    "tabular-machine-learning",
+    "reproducible-research",
+]
 dependencies = [
     "matplotlib==3.11.1",
     "numpy==2.5.1",
@@ -19,6 +31,10 @@ dependencies = [
 
 [project.optional-dependencies]
 test = ["pytest==9.1.1"]
+
+[project.urls]
+Repository = "https://github.com/OrcaDS/Data-002-Synthetic-Restoration-Controls-under-Data-Scarcity"
+Notebook = "https://github.com/OrcaDS/Data-002-Synthetic-Restoration-Controls-under-Data-Scarcity/blob/main/notebooks/01_replication_control_results.ipynb"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

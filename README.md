@@ -31,6 +31,35 @@ The notebook verifies the accepted stratum-summary SHA-256 before loading and
 loads no prediction arrays, seed-level metric document, or upstream metric
 table.
 
+## Quick start
+
+Data 002 supports Python `>=3.13,<3.14`.
+
+```bash
+python -m venv .venv
+```
+
+Activate the environment:
+
+```bash
+# Linux or macOS
+source .venv/bin/activate
+
+# Windows PowerShell
+.\.venv\Scripts\Activate.ps1
+```
+
+Install the project and run the portable test boundary:
+
+```bash
+python -m pip install -e ".[test]"
+python -m pytest -q
+```
+
+View the
+[executed results notebook directly on GitHub](https://github.com/OrcaDS/Data-002-Synthetic-Restoration-Controls-under-Data-Scarcity/blob/main/notebooks/01_replication_control_results.ipynb)
+without running Jupyter locally.
+
 ## Public result
 
 Data 002 asks whether Gaussian synthesis adds predictive value beyond a
@@ -93,6 +122,10 @@ Host-specific launch records, environment inventories, logs, checkpoints,
 prediction archives, operational tests, and internal coordination documents
 are intentionally excluded. Run `python -m pytest -q` to validate the 98-test
 portable boundary.
+
+Original project code and documentation are available under the
+[MIT License](LICENSE). Dataset origins, licenses, file identities, and
+attribution are documented in [Data sources](DATA_SOURCES.md).
 
 ## Limitations
 
